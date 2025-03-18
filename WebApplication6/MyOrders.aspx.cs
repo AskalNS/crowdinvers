@@ -48,7 +48,7 @@ namespace WebApplication6
 
             using (var db = new ApplicationDbContext())
             {
-                var orders = db.Orders.Where(x => x.Id == id).ToList();
+                var orders = db.Orders.Where(x => x.BusinessId == id).ToList();
                 rptOrders.DataSource = orders;
                 rptOrders.DataBind();
             }

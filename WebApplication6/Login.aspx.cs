@@ -51,7 +51,7 @@ namespace WebApplication6
                     string encryptedTicket = FormsAuthentication.Encrypt(ticket);
                     System.Web.HttpCookie authCookie = new System.Web.HttpCookie(FormsAuthentication.FormsCookieName, encryptedTicket);
                     Response.Cookies.Add(authCookie);
-                    Response.Redirect("Orders.aspx");
+                    Response.Redirect("InvestorDefault.aspx");
                     break;
                 }
                 case "BUSINESS":

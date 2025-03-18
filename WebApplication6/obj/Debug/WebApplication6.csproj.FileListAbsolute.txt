@@ -216,3 +216,17 @@ C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Mi
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate2.resources
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate3.resources
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate4.resources
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x86\librdkafka.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x86\librdkafkacpp.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x86\libzstd.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x86\msvcp120.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x86\msvcr120.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x86\zlib.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x64\librdkafka.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x64\librdkafkacpp.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x64\libzstd.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x64\msvcp120.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x64\msvcr120.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x64\zlib.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\Confluent.Kafka.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\Confluent.Kafka.xml
