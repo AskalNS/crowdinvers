@@ -33,7 +33,7 @@ namespace WebApplication6
 
 
             Business business = null;
-            using (var db = new ApplicationDbContext()) // Замените на ваш контекст
+            using (var db = new ApplicationDbContext()) 
             {
                 business = db.Businesses.Where(x => x.OwnerMail == login).First();
             }

@@ -330,8 +330,8 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Business.cs" />
-    <Compile Include="Models\Invest.cs" />
     <Compile Include="Models\Investment.cs" />
+    <Compile Include="Models\InvestmentDTO.cs" />
     <Compile Include="Models\Investor.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\PostgresConfiguration.cs" />

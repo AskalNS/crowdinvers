@@ -11,30 +11,29 @@ using System.Web.Services.Description;
 using System.Threading;
 using Newtonsoft.Json;
 using WebApplication6.utills;
+using System.Web.Security;
 
 namespace WebApplication6
 {
     public partial class OrderDetailsForInvestor : System.Web.UI.Page
     {
         // Переменные для хранения данных карты
-        public string CardNumber { get; set; }
-        public string ExpiryDate { get; set; }
-        public string CVV { get; set; }
-        public decimal InvestmentAmount { get; set; }
+        private int businessId;
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            
             if (!IsPostBack)
             {
-                int orderId;
-                if (int.TryParse(Request.QueryString["id"], out orderId))
+                int orderID;
+                if (int.TryParse(Request.QueryString["id"], out orderID))
                 {
-                    LoadOrderDetails(orderId);
+                    LoadOrderDetails(orderID);
                 }
                 else
                 {
                     // Если ID не передан, перенаправляем на страницу списка заказов
-                    Response.Redirect("Orders.aspx");
+                    Response.Redirect("OrdersForInvestor.aspx");
                 }
             }
         }
@@ -43,23 +42,52 @@ namespace WebApplication6
         {
             using (var db = new ApplicationDbContext())
             {
-                var order = db.Orders.FirstOrDefault(o => o.Id == orderId);
+                var order = db.Orders.FirstOrDefault(o => o.Id == orderId); 
                 if (order != null)
                 {
                     fvOrderDetails.DataSource = new List<Order> { order };
                     fvOrderDetails.DataBind();
+                    businessId = order.BusinessId;
                 }
                 else
                 {
                     // Если заказ не найден, перенаправляем на страницу списка заказов
-                    Response.Redirect("Orders.aspx");
+                    Response.Redirect("OrdersForInvestor.aspx");
+                }
+            }
+        }
+        private void getBusinessId(int orderId)
+        {
+            using (var db = new ApplicationDbContext())
+            {
+                var order = db.Orders.FirstOrDefault(o => o.Id == orderId); 
+                if (order != null)
+                {
+                    businessId = order.BusinessId;
                 }
             }
         }
 
+
         // Обработчик нажатия кнопки "Подтвердить инвестицию"
         protected void btnSubmitInvestment_Click(object sender, EventArgs e)
         {
+
+            int orderID;
+            if (int.TryParse(Request.QueryString["id"], out orderID))
+            {
+                getBusinessId(orderID);
+            }
+            else
+            {
+                // Если ID не передан, перенаправляем на страницу списка заказов
+                Response.Redirect("OrdersForInvestor.aspx");
+            }
+
+
+            Business business = null;
+            Investor investor = null;
+            decimal InvestmentAmount = 0;
             if (decimal.TryParse(amount.Text, out decimal amountValue))
             {
                 InvestmentAmount = amountValue;
@@ -69,16 +97,52 @@ namespace WebApplication6
                 ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Введите корректную сумму инвестиции.');", true);
                 return;
             }
-
-
-
-            var invest = new Invest()
+            if(InvestmentAmount < 30000)
             {
+                ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Минимальная сумма инвестиции 30000тг.');", true);
+                return;
+            }
+
+
+            string login = "";
+            if (Request.Cookies[FormsAuthentication.FormsCookieName] != null)
+            {
+                HttpCookie authCookie = Request.Cookies[FormsAuthentication.FormsCookieName];
+
+                FormsAuthenticationTicket ticket = FormsAuthentication.Decrypt(authCookie.Value);
+
+                login = ticket.Name;
+            }
+
+
+            using (var db = new ApplicationDbContext()) // Замените на ваш контекст
+            {
+                business = db.Businesses.Where(x => x.Id == businessId).FirstOrDefault();
+                investor = db.Investors.Where(x => x.Mail == login).FirstOrDefault();
+            }
+
+            if(investor == null || business == null)
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Системная ошибка');", true);
+                Response.Redirect("OrdersForInvestor.aspx");
+            }
+
+
+            var invest = new InvestmentDTO()
+            {
+                InvestorId = investor.Id,
+                InvestorFio = investor.Fio,
+                InvestorIin = investor.Iin,
+                BusinessId = business.Id,
+                BusinessFio = business.OwnerFIO,
+                BusinessBin = business.CompanyBIN,
                 number = CardUtill.Encrypt(cardNumber.Text),
                 date = CardUtill.Encrypt(expiryDate.Text),
                 cvv = CardUtill.HashCVV(cvv.Text),
                 amount = InvestmentAmount
             };
+
+
 
 
 
