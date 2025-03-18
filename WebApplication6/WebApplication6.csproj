@@ -402,6 +402,7 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="utills\CardUtill.cs" />
     <Compile Include="Validate.aspx.cs">
       <DependentUpon>Validate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

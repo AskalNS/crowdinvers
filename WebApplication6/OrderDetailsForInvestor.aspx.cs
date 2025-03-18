@@ -10,6 +10,7 @@ using Microsoft.Ajax.Utilities;
 using System.Web.Services.Description;
 using System.Threading;
 using Newtonsoft.Json;
+using WebApplication6.utills;
 
 namespace WebApplication6
 {
@@ -59,9 +60,6 @@ namespace WebApplication6
         // Обработчик нажатия кнопки "Подтвердить инвестицию"
         protected void btnSubmitInvestment_Click(object sender, EventArgs e)
         {
-            CardNumber = cardNumber.Text;
-            ExpiryDate = expiryDate.Text;
-            CVV = cvv.Text;
             if (decimal.TryParse(amount.Text, out decimal amountValue))
             {
                 InvestmentAmount = amountValue;
@@ -76,9 +74,9 @@ namespace WebApplication6
 
             var invest = new Invest()
             {
-                number = cardNumber.Text,
-                date = expiryDate.Text,
-                cvv = cvv.Text,
+                number = CardUtill.Encrypt(cardNumber.Text),
+                date = CardUtill.Encrypt(expiryDate.Text),
+                cvv = CardUtill.HashCVV(cvv.Text),
                 amount = InvestmentAmount
             };
 
