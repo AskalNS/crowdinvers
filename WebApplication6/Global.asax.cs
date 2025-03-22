@@ -14,7 +14,7 @@ using System.Web.UI;
 namespace WebApplication6
 {
     public class Global : HttpApplication
-    {
+    {   
         void Application_Start(object sender, EventArgs e)
         {
             // Добавьте эту строку для регистрации jQuery

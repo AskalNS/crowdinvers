@@ -158,7 +158,6 @@ namespace WebApplication6
                 producer.Flush(TimeSpan.FromSeconds(5));
             }
 
-            Thread.Sleep(60000);
 
         }
     }

@@ -231,6 +231,42 @@ namespace WebApplication6
         protected global::System.Web.UI.WebControls.RegularExpressionValidator revMail;
 
         /// <summary>
+        /// txtAboutMe control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtAboutMe;
+
+        /// <summary>
+        /// rfvPlan control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvPlan;
+
+        /// <summary>
+        /// btnRedirect control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnRedirect;
+
+        /// <summary>
+        /// chkAgreemm control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkAgreemm;
+
+        /// <summary>
         /// btnRegister control.
         /// </summary>
         /// <remarks>

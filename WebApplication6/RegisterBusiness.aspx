@@ -165,8 +165,30 @@
                   </div>
 
 
+                     <!-- О себе -->
+                 <div>
+                     <label for="txtAboutMe" class="form-label">Компания туралы айтыңыз</label>
+                     <div class="input-group">
+                         <span class="input-group-text"><i class="bi bi-file-earmark-text"></i></span>
+                         <asp:TextBox ID="txtAboutMe" runat="server" CssClass="form-control" TextMode="MultiLine" style="width: 650px   !important; max-width: 650px !important; min-width: 650px !important;" Rows="6"  placeholder="Компания туралы айтыңыз"></asp:TextBox>
 
-              </div>
+                     </div>
+                     <asp:RequiredFieldValidator ID="rfvPlan" runat="server" ControlToValidate="txtAboutMe"
+                         ErrorMessage="Компания туралы айтыңыз" CssClass="text-danger small"></asp:RequiredFieldValidator>
+                 </div>
+                  <asp:Button ID="btnRedirect" runat="server" CssClass="btn btn-blue btn-lg w-30" Text="Үлгі көру" PostBackUrl="~/AboutMeExamples.aspx" style="margin-top:-40px; margin-bottom:20px"/>
+
+
+                  <a href="https://localhost:44333/PlatformAgreement.aspx" style="margin-top:-10px;">Келесісім шарт</a>.
+                  
+                  <div style="margin-top:-10px; margin-bottom:40px">
+                     <div class="input-group">
+                         <span class="">Келісім шартты оқып шықтым және келісемін___</span>
+                        <asp:CheckBox ID="chkAgreemm" runat="server" style="width:80px"/>
+                     </div>
+                 </div>
+                  
+
 
               <!-- Кнопка регистрации -->
               <div class="row">

@@ -230,3 +230,4 @@ C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x64\msvcr120.
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x64\zlib.dll
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\Confluent.Kafka.dll
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\Confluent.Kafka.xml
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate5.resources

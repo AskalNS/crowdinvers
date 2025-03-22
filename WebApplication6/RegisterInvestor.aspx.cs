@@ -17,7 +17,7 @@ namespace WebApplication6
 
         protected void btnRegister_Click(object sender, EventArgs e)
         {
-            if (Page.IsValid)
+            if (Page.IsValid && chkAgreemm.Checked)
             {
                 using (var db = new ApplicationDbContext())
                 {
@@ -58,7 +58,6 @@ namespace WebApplication6
                     Salt = salt,
                     Role = "INVESTOR"
                 };
-https://localhost:44333/RegisterInvestor.aspx.cs
                 using (var db = new ApplicationDbContext())
                 {
                     db.Investors.Add(investor);
@@ -74,6 +73,7 @@ https://localhost:44333/RegisterInvestor.aspx.cs
                 txtPhone.Text = "";
                 txtMail.Text = "";
                 txtAddress.Text = "";
+                Response.Redirect("RiskAwarenessTest.aspx");
             }
             else
             {

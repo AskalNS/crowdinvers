@@ -38,6 +38,9 @@ namespace WebApplication6.Models
         [Column("sector")]
         public string Sector { get; set; }
 
+        [Column("aboutMe")]
+        public string AboutMe { get; set; }
+
         [Column("dateOfBusinessStarted")]
         public DateTimeOffset DateOfBusinessStarted { get; set; }
 

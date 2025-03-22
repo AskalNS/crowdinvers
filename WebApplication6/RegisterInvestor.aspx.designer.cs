@@ -159,6 +159,15 @@ namespace WebApplication6
         protected global::System.Web.UI.WebControls.CompareValidator cvPassword;
 
         /// <summary>
+        /// chkAgreemm control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkAgreemm;
+
+        /// <summary>
         /// btnRegister control.
         /// </summary>
         /// <remarks>

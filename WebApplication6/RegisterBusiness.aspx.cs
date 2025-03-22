@@ -16,7 +16,7 @@ namespace WebApplication6
 
         protected void btnRegister_Click(object sender, EventArgs e)
             {
-            if (Page.IsValid) // Проверка валидации
+            if (Page.IsValid && chkAgreemm.Checked) // Проверка валидации
             {
 
                 using (var db = new ApplicationDbContext())
@@ -49,6 +49,7 @@ namespace WebApplication6
                     OwnerMail = txtMail.Text,
                     Address = txtAddress.Text,
                     Sector = txtSector.Text,
+                    AboutMe = txtAboutMe.Text,
                     DateOfBusinessStarted = DateTimeOffset.TryParse(txtDateOfBusinessStarted.Text, out var parsedDate)
                         ? parsedDate
                         : DateTimeOffset.MinValue, // Если парсинг не удался, используем минимальное значение
@@ -85,6 +86,8 @@ namespace WebApplication6
                 txtAddress.Text = "";
                 txtSector.Text = "";
                 txtDateOfBusinessStarted.Text = "";
+                txtAboutMe.Text = "";
+                Response.Redirect("RiskAwarenessTest.aspx");
             }
             else
             {

@@ -120,6 +120,15 @@
                       </div>
                   </div>
               </div>
+              
+                <a href="https://localhost:44333/PlatformAgreement.aspx" style="margin-top:0px;">Келесісім шарт</a>.
+                  
+                <div style="margin-top:0px; margin-bottom:50px">
+                    <div class="input-group">
+                        <span class="">Келісім шартты оқып шықтым және келісемін___</span>
+                    <asp:CheckBox ID="chkAgreemm" runat="server" style="width:80px"/>
+                    </div>
+                </div>
 
               <!-- Кнопка регистрации -->
               <div class="row">

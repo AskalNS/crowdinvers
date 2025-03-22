@@ -55,7 +55,12 @@
                                 ErrorMessage="Мақсатты енгізіңіз" CssClass="text-danger small"></asp:RequiredFieldValidator>
                         </div>  
 
-                        <!-- Срок выполнения -->
+
+                    </div>
+
+                    <!-- Второй столбец -->
+                    <div class="col-md-6">
+                                               <!-- Срок выполнения -->
                         <div class="mb-4">
                             <label for="txtDueDate" class="form-label">Мерзімі</label>
                             <div class="input-group">
@@ -67,30 +72,27 @@
                         </div>
                     </div>
 
-                    <!-- Второй столбец -->
-                    <div class="col-md-6">
-                        <!-- Описание -->
-                        <div class="mb-4">
-                            <label for="txtDescription" class="form-label">Сипаттама</label>
-                            <div class="input-group">
-                                <span class="input-group-text"><i class="bi bi-card-text"></i></span>
-                                <asp:TextBox ID="txtDescription" runat="server" CssClass="form-control wide-textarea" TextMode="MultiLine" Rows="6" placeholder="Сипаттаманы енгізіңіз"></asp:TextBox>
-                            </div>
-                            <asp:RequiredFieldValidator ID="rfvDescription" runat="server" ControlToValidate="txtDescription"
-                                ErrorMessage="Сипаттаманы енгізіңіз" CssClass="text-danger small"></asp:RequiredFieldValidator>
-                        </div>
+                     <!-- Описание -->
+                 <div class="mb-4">
+                     <label for="txtDescription" class="form-label">Сипаттама</label>
+                     <div class="input-group">
+                         <span class="input-group-text"><i class="bi bi-card-text"></i></span>
+                         <asp:TextBox ID="txtDescription"  style="width: 950px   !important; max-width: 950px !important; min-width: 950px !important;" runat="server" CssClass="form-control wide-textarea" TextMode="MultiLine" Rows="6" placeholder="Сипаттаманы енгізіңіз"></asp:TextBox>
+                     </div>
+                     <asp:RequiredFieldValidator ID="rfvDescription" runat="server" ControlToValidate="txtDescription"
+                         ErrorMessage="Сипаттаманы енгізіңіз" CssClass="text-danger small"></asp:RequiredFieldValidator>
+                 </div>
 
-                        <!-- План -->
-                        <div class="mb-4">
-                            <label for="txtPlan" class="form-label">Жоспар</label>
-                            <div class="input-group">
-                                <span class="input-group-text"><i class="bi bi-file-earmark-text"></i></span>
-                                <asp:TextBox ID="txtPlan" runat="server" CssClass="form-control wide-textarea" TextMode="MultiLine" Rows="6" placeholder="Жоспарды енгізіңіз"></asp:TextBox>
-                            </div>
-                            <asp:RequiredFieldValidator ID="rfvPlan" runat="server" ControlToValidate="txtPlan"
-                                ErrorMessage="Жоспарды енгізіңіз" CssClass="text-danger small"></asp:RequiredFieldValidator>
-                        </div>
-                    </div>
+                 <!-- План -->
+                 <div class="mb-4">
+                     <label for="txtPlan" class="form-label">Жоспар</label>
+                     <div class="input-group">
+                         <span class="input-group-text"><i class="bi bi-file-earmark-text"></i></span>
+                         <asp:TextBox ID="txtPlan"  style="width: 950px   !important; max-width: 950px !important; min-width: 950px !important;" runat="server" CssClass="form-control wide-textarea" TextMode="MultiLine" Rows="6" placeholder="Жоспарды енгізіңіз"></asp:TextBox>
+                     </div>
+                     <asp:RequiredFieldValidator ID="rfvPlan" runat="server" ControlToValidate="txtPlan"
+                         ErrorMessage="Жоспарды енгізіңіз" CssClass="text-danger small"></asp:RequiredFieldValidator>
+                 </div>
                 </div>
 
                 <!-- Кнопка создания заказа -->
