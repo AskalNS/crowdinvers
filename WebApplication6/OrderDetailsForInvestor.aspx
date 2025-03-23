@@ -11,9 +11,11 @@
                     <ItemTemplate>
                         <h4><%# Eval("Target") %></h4>
                         <p><strong>Описание:</strong> <%# Eval("Description") %></p>
-                        <p><strong>Целевая сумма:</strong> <%# Eval("TargetAmount", "{0:C}") %></p>
+                        <p><strong>Целевая сумма:</strong> <%# Eval("TargetAmount") %></p>
+                        <p><strong>Кәзіргі сумма:</strong> <%# Eval("CurrentAmount") %></p>
                         <p><strong>Срок выполнения:</strong> <%# Eval("DueDate", "{0:dd.MM.yyyy}") %></p>
                         <p><strong>План:</strong> <%# Eval("Plan") %></p>
+                        <p><strong>План:</strong> <%# Eval("content") %></p>
                     </ItemTemplate>
                 </asp:FormView>
 

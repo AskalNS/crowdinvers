@@ -231,3 +231,8 @@ C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\librdkafka\x64\zlib.dll
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\Confluent.Kafka.dll
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\Confluent.Kafka.xml
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate5.resources
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate6.resources
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate7.resources
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate8.resources
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate9.resources
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate10.resources

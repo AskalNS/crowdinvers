@@ -11,7 +11,7 @@ namespace WebApplication6
 {
 
 
-    public partial class OrderDetails
+    public partial class OrderDetailsForAdmin
     {
 
         /// <summary>
@@ -24,48 +24,39 @@ namespace WebApplication6
         protected global::System.Web.UI.WebControls.FormView fvOrderDetails;
 
         /// <summary>
-        /// cardNumber control.
+        /// txtContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox cardNumber;
+        protected global::System.Web.UI.WebControls.TextBox txtContent;
 
         /// <summary>
-        /// expiryDate control.
+        /// rfvPlan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox expiryDate;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvPlan;
 
         /// <summary>
-        /// cvv control.
+        /// btnDeny control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox cvv;
+        protected global::System.Web.UI.WebControls.Button btnDeny;
 
         /// <summary>
-        /// amount control.
+        /// btnAccept control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox amount;
-
-        /// <summary>
-        /// btnSubmitInvestment control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmitInvestment;
+        protected global::System.Web.UI.WebControls.Button btnAccept;
     }
 }

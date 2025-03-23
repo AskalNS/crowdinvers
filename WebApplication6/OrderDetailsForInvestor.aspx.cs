@@ -42,10 +42,24 @@ namespace WebApplication6
         {
             using (var db = new ApplicationDbContext())
             {
-                var order = db.Orders.FirstOrDefault(o => o.Id == orderId); 
-                if (order != null)
+                var order = db.Orders.FirstOrDefault(o => o.Id == orderId);
+                var shedule = db.RepaymentSchedule.FirstOrDefault(o => o.OrderId == orderId);
+                if (order != null && shedule != null)
                 {
-                    fvOrderDetails.DataSource = new List<Order> { order };
+                    var orderDetail = new OrderDetailsViewModel()
+                    {
+                        Target = order.Target,
+                        TargetAmount = order.TargetAmount,
+                        DueDate = order.DueDate,
+                        DateOfOrder = order.DateOfOrder,
+                        CurrentAmount = order.CurrentAmount,
+                        content = shedule.Content,
+                        Plan = order.Plan,
+                        Description = order.Description
+                    };
+
+
+                    fvOrderDetails.DataSource = new List<OrderDetailsViewModel> { orderDetail };
                     fvOrderDetails.DataBind();
                     businessId = order.BusinessId;
                 }
@@ -141,8 +155,6 @@ namespace WebApplication6
                 cvv = CardUtill.HashCVV(cvv.Text),
                 amount = InvestmentAmount
             };
-
-
 
 
 

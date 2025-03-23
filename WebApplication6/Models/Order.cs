@@ -35,7 +35,7 @@ namespace WebApplication6.Models
         public string Plan { get; set; }
 
         [Column("isChecked")]
-        public int IsChecked { get; set; }
+        public int IsChecked { get; set; } 
 
         [Column("dateOfOrder")]
         public DateTimeOffset DateOfOrder { get; set; }

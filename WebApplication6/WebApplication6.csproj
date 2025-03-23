@@ -170,6 +170,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="CreateOrder.aspx" />
+    <Content Include="CreateRepaymentSchedule.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -180,10 +181,14 @@
     <Content Include="Login.aspx" />
     <Content Include="MyOrders.aspx" />
     <Content Include="OrderDetails.aspx" />
+    <Content Include="OrderDetailsForAdmin.aspx" />
     <Content Include="OrderDetailsForInvestor.aspx" />
+    <Content Include="OrdersForAdmin.aspx" />
     <Content Include="OrdersForBusiness.aspx" />
     <Content Include="OrdersForInvestor.aspx" />
     <Content Include="PlatformAgreement.aspx" />
+    <Content Include="ProfileBusiness.aspx" />
+    <Content Include="ProfileInvestor.aspx" />
     <Content Include="RegisterBusiness.aspx" />
     <Content Include="RegisterInvestor.aspx" />
     <Content Include="RiskAwarenessTest.aspx" />
@@ -294,6 +299,13 @@
     <Compile Include="CreateOrder.aspx.designer.cs">
       <DependentUpon>CreateOrder.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CreateRepaymentSchedule.aspx.cs">
+      <DependentUpon>CreateRepaymentSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateRepaymentSchedule.aspx.designer.cs">
+      <DependentUpon>CreateRepaymentSchedule.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -342,15 +354,40 @@
     <Compile Include="Migrations\202503211410334_InitialCreate5.Designer.cs">
       <DependentUpon>202503211410334_InitialCreate5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202503231046038_InitialCreate6.cs" />
+    <Compile Include="Migrations\202503231046038_InitialCreate6.Designer.cs">
+      <DependentUpon>202503231046038_InitialCreate6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202503231048391_InitialCreate7.cs" />
+    <Compile Include="Migrations\202503231048391_InitialCreate7.Designer.cs">
+      <DependentUpon>202503231048391_InitialCreate7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202503231121080_InitialCreate8.cs" />
+    <Compile Include="Migrations\202503231121080_InitialCreate8.Designer.cs">
+      <DependentUpon>202503231121080_InitialCreate8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202503231729435_InitialCreate9.cs" />
+    <Compile Include="Migrations\202503231729435_InitialCreate9.Designer.cs">
+      <DependentUpon>202503231729435_InitialCreate9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202503231905232_InitialCreate10.cs" />
+    <Compile Include="Migrations\202503231905232_InitialCreate10.Designer.cs">
+      <DependentUpon>202503231905232_InitialCreate10.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Business.cs" />
     <Compile Include="Models\Investment.cs" />
     <Compile Include="Models\InvestmentDTO.cs" />
     <Compile Include="Models\Investor.cs" />
     <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderDetailsViewModel.cs" />
     <Compile Include="Models\PostgresConfiguration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ProductDatabaseInitializer.cs" />
+    <Compile Include="Models\Refill.cs" />
+    <Compile Include="Models\RepaymentSchedule.cs" />
+    <Compile Include="Models\Transaction.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="MyOrders.aspx.cs">
       <DependentUpon>MyOrders.aspx</DependentUpon>
@@ -366,12 +403,26 @@
     <Compile Include="OrderDetails.aspx.designer.cs">
       <DependentUpon>OrderDetails.aspx</DependentUpon>
     </Compile>
+    <Compile Include="OrderDetailsForAdmin.aspx.cs">
+      <DependentUpon>OrderDetailsForAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderDetailsForAdmin.aspx.designer.cs">
+      <DependentUpon>OrderDetailsForAdmin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="OrderDetailsForInvestor.aspx.cs">
       <DependentUpon>OrderDetailsForInvestor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="OrderDetailsForInvestor.aspx.designer.cs">
       <DependentUpon>OrderDetailsForInvestor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrdersForAdmin.aspx.cs">
+      <DependentUpon>OrdersForAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrdersForAdmin.aspx.designer.cs">
+      <DependentUpon>OrdersForAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="OrdersForBusiness.aspx.cs">
       <DependentUpon>OrdersForBusiness.aspx</DependentUpon>
@@ -393,6 +444,20 @@
     </Compile>
     <Compile Include="PlatformAgreement.aspx.designer.cs">
       <DependentUpon>PlatformAgreement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileBusiness.aspx.cs">
+      <DependentUpon>ProfileBusiness.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfileBusiness.aspx.designer.cs">
+      <DependentUpon>ProfileBusiness.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileInvestor.aspx.cs">
+      <DependentUpon>ProfileInvestor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfileInvestor.aspx.designer.cs">
+      <DependentUpon>ProfileInvestor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterBusiness.aspx.cs">
@@ -478,6 +543,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202503211410334_InitialCreate5.resx">
       <DependentUpon>202503211410334_InitialCreate5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202503231046038_InitialCreate6.resx">
+      <DependentUpon>202503231046038_InitialCreate6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202503231048391_InitialCreate7.resx">
+      <DependentUpon>202503231048391_InitialCreate7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202503231121080_InitialCreate8.resx">
+      <DependentUpon>202503231121080_InitialCreate8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202503231729435_InitialCreate9.resx">
+      <DependentUpon>202503231729435_InitialCreate9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202503231905232_InitialCreate10.resx">
+      <DependentUpon>202503231905232_InitialCreate10.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
