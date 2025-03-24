@@ -36,15 +36,30 @@ namespace WebApplication6
             using (var db = new ApplicationDbContext())
             {
                 var order = db.Orders.FirstOrDefault(o => o.Id == orderId);
-                if (order != null)
+                var shedule = db.RepaymentSchedule.FirstOrDefault(o => o.OrderId == orderId);
+                if (order != null && shedule != null)
                 {
-                    fvOrderDetails.DataSource = new List<Order> { order };
+                    var orderDetail = new OrderDetailsViewModel()
+                    {
+                        Target = order.Target,
+                        TargetAmount = order.TargetAmount,
+                        DueDate = order.DueDate,
+                        DateOfOrder = order.DateOfOrder,
+                        CurrentAmount = order.CurrentAmount,
+                        content = shedule.Content,
+                        Plan = order.Plan,
+                        Description = order.Description
+                    };
+
+
+                    fvOrderDetails.DataSource = new List<OrderDetailsViewModel> { orderDetail };
                     fvOrderDetails.DataBind();
+                    businessId = order.BusinessId;
                 }
                 else
                 {
                     // Если заказ не найден, перенаправляем на страницу списка заказов
-                    Response.Redirect("Orders.aspx");
+                    Response.Redirect("MyOrders.aspx");
                 }
             }
         }
@@ -77,7 +92,6 @@ namespace WebApplication6
 
 
             Business business = null;
-            Investor investor = null;
             decimal InvestmentAmount = 0;
             if (decimal.TryParse(amount.Text, out decimal amountValue))
             {
@@ -86,11 +100,6 @@ namespace WebApplication6
             else
             {
                 ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Введите корректную сумму инвестиции.');", true);
-                return;
-            }
-            if (InvestmentAmount < 30000)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Минимальная сумма инвестиции 30000тг.');", true);
                 return;
             }
 
@@ -108,32 +117,26 @@ namespace WebApplication6
 
             using (var db = new ApplicationDbContext()) // Замените на ваш контекст
             {
-                business = db.Businesses.Where(x => x.Id == businessId).FirstOrDefault();
-                investor = db.Investors.Where(x => x.Mail == login).FirstOrDefault();
+                business = db.Businesses.Where(x => x.OwnerMail == login).FirstOrDefault();
             }
 
-            if (investor == null || business == null)
+            if (business == null)
             {
                 ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Системная ошибка');", true);
                 Response.Redirect("OrdersForInvestor.aspx");
             }
 
 
-            var invest = new InvestmentDTO()
+            var invest = new RefillDTO()
             {
-                InvestorId = investor.Id,
-                InvestorFio = investor.Fio,
-                InvestorIin = investor.Iin,
                 BusinessId = business.Id,
-                BusinessFio = business.OwnerFIO,
-                BusinessBin = business.CompanyBIN,
+                OrderId = orderID,
+                CreatedAt = DateTimeOffset.Now,
                 number = CardUtill.Encrypt(cardNumber.Text),
                 date = CardUtill.Encrypt(expiryDate.Text),
                 cvv = CardUtill.HashCVV(cvv.Text),
                 amount = InvestmentAmount
             };
-
-
 
 
 
@@ -145,7 +148,7 @@ namespace WebApplication6
             using (var producer = new ProducerBuilder<string, string>(config).Build())
             {
                 string json = JsonConvert.SerializeObject(invest);
-                producer.Produce("InvestorPayment", new Message<string, string> { Key = "1", Value = json });
+                producer.Produce("BusinessRefill", new Message<string, string> { Key = "1", Value = json });
                 producer.Flush(TimeSpan.FromSeconds(5));
             }
 

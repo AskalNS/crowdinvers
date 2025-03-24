@@ -84,88 +84,71 @@ namespace WebApplication6
         protected void btnSubmitInvestment_Click(object sender, EventArgs e)
         {
 
-            //int orderID;
-            //if (int.TryParse(Request.QueryString["id"], out orderID))
-            //{
-            //    getBusinessId(orderID);
-            //}
-            //else
-            //{
-            //    // Если ID не передан, перенаправляем на страницу списка заказов
-            //    Response.Redirect("OrdersForInvestor.aspx");
-            //}
+
+            Investor investor = null;
+            decimal InvestmentAmount = 0;
+            if (decimal.TryParse(txtAmount.Text, out decimal amountValue))
+            {
+                InvestmentAmount = amountValue;
+            }
+            else
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Введите корректную сумму инвестиции.');", true);
+                return;
+            }
+            if (InvestmentAmount > int.Parse(litBalance.Text))
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Балансыңыздағы ақша жетпейді.');", true);
+                return;
+            }
 
 
-            //Business business = null;
-            //Investor investor = null;
-            //decimal InvestmentAmount = 0;
-            //if (decimal.TryParse(amount.Text, out decimal amountValue))
-            //{
-            //    InvestmentAmount = amountValue;
-            //}
-            //else
-            //{
-            //    ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Введите корректную сумму инвестиции.');", true);
-            //    return;
-            //}
-            //if (InvestmentAmount < 30000)
-            //{
-            //    ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Минимальная сумма инвестиции 30000тг.');", true);
-            //    return;
-            //}
+            string login = "";
+            if (Request.Cookies[FormsAuthentication.FormsCookieName] != null)
+            {
+                HttpCookie authCookie = Request.Cookies[FormsAuthentication.FormsCookieName];
+
+                FormsAuthenticationTicket ticket = FormsAuthentication.Decrypt(authCookie.Value);
+
+                login = ticket.Name;
+            }
 
 
-            //string login = "";
-            //if (Request.Cookies[FormsAuthentication.FormsCookieName] != null)
-            //{
-            //    HttpCookie authCookie = Request.Cookies[FormsAuthentication.FormsCookieName];
+            using (var db = new ApplicationDbContext()) // Замените на ваш контекст
+            {
+                investor = db.Investors.Where(x => x.Mail == login).FirstOrDefault();
+            }
 
-            //    FormsAuthenticationTicket ticket = FormsAuthentication.Decrypt(authCookie.Value);
+            if (investor == null)
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Системная ошибка');", true);
+                Response.Redirect("OrdersForInvestor.aspx");
+            }
 
-            //    login = ticket.Name;
-            //}
+            var transaction = new TransactionDTO()
+            {
+                InvestorId = investor.Id,
+                OrderId = -1,
+                Amount = InvestmentAmount,
+                TrasactionType = 1010,
+                CreatedAt = DateTimeOffset.Now,
+                cardNumber = CardUtill.Encrypt(cardNumber.Text)
 
-
-            //using (var db = new ApplicationDbContext()) // Замените на ваш контекст
-            //{
-            //    business = db.Businesses.Where(x => x.Id == businessId).FirstOrDefault();
-            //    investor = db.Investors.Where(x => x.Mail == login).FirstOrDefault();
-            //}
-
-            //if (investor == null || business == null)
-            //{
-            //    ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Системная ошибка');", true);
-            //    Response.Redirect("OrdersForInvestor.aspx");
-            //}
-
-
-            //var invest = new InvestmentDTO()
-            //{
-            //    InvestorId = investor.Id,
-            //    InvestorFio = investor.Fio,
-            //    InvestorIin = investor.Iin,
-            //    BusinessId = business.Id,
-            //    BusinessFio = business.OwnerFIO,
-            //    BusinessBin = business.CompanyBIN,
-            //    number = CardUtill.Encrypt(cardNumber.Text),
-            //    date = CardUtill.Encrypt(expiryDate.Text),
-            //    cvv = CardUtill.HashCVV(cvv.Text),
-            //    amount = InvestmentAmount
-            //};
+            };
 
 
 
-            //var config = new ProducerConfig
-            //{
-            //    BootstrapServers = "localhost:9092"
-            //};
+            var config = new ProducerConfig
+            {
+                BootstrapServers = "localhost:9092"
+            };
 
-            //using (var producer = new ProducerBuilder<string, string>(config).Build())
-            //{
-            //    string json = JsonConvert.SerializeObject(invest);
-            //    producer.Produce("InvestorPayment", new Message<string, string> { Key = "1", Value = json });
-            //    producer.Flush(TimeSpan.FromSeconds(5));
-            //}
+            using (var producer = new ProducerBuilder<string, string>(config).Build())
+            {
+                string json = JsonConvert.SerializeObject(transaction);
+                producer.Produce("InvestorTransaction", new Message<string, string> { Key = "1", Value = json });
+                producer.Flush(TimeSpan.FromSeconds(5));
+            }
 
 
         }

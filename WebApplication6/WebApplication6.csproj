@@ -386,8 +386,10 @@
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ProductDatabaseInitializer.cs" />
     <Compile Include="Models\Refill.cs" />
+    <Compile Include="Models\RefillDTO.cs" />
     <Compile Include="Models\RepaymentSchedule.cs" />
     <Compile Include="Models\Transaction.cs" />
+    <Compile Include="Models\TransactionDTO.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="MyOrders.aspx.cs">
       <DependentUpon>MyOrders.aspx</DependentUpon>
