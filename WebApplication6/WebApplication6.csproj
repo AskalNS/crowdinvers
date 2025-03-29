@@ -174,8 +174,11 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="images\BackForDefault2.jpg" />
     <Content Include="images\medical.jpg" />
     <Content Include="images\ondiris.png" />
+    <Content Include="images\BackForDefault.jpg" />
+    <Content Include="images\BackForDefault1.jpg" />
     <Content Include="images\textil.png" />
     <Content Include="InvestorDefault.aspx" />
     <Content Include="Login.aspx" />
@@ -374,9 +377,18 @@
     <Compile Include="Migrations\202503231905232_InitialCreate10.Designer.cs">
       <DependentUpon>202503231905232_InitialCreate10.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202503241636505_InitialCreate11.cs" />
+    <Compile Include="Migrations\202503241636505_InitialCreate11.Designer.cs">
+      <DependentUpon>202503241636505_InitialCreate11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202503241639417_InitialCreate12.cs" />
+    <Compile Include="Migrations\202503241639417_InitialCreate12.Designer.cs">
+      <DependentUpon>202503241639417_InitialCreate12.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Business.cs" />
+    <Compile Include="Models\Investing.cs" />
     <Compile Include="Models\Investment.cs" />
     <Compile Include="Models\InvestmentDTO.cs" />
     <Compile Include="Models\Investor.cs" />
@@ -560,6 +572,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202503231905232_InitialCreate10.resx">
       <DependentUpon>202503231905232_InitialCreate10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202503241636505_InitialCreate11.resx">
+      <DependentUpon>202503241636505_InitialCreate11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202503241639417_InitialCreate12.resx">
+      <DependentUpon>202503241639417_InitialCreate12.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

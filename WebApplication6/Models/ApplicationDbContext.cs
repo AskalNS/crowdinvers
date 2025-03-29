@@ -15,6 +15,7 @@ namespace WebApplication6.Models
         public DbSet<Investment> Investment { get; set; }
         public DbSet<Transaction> Transaction { get; set; }
         public DbSet<Refill> Refill { get; set; }
+        public DbSet<Investing> Investing { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

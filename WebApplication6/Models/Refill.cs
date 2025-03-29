@@ -21,7 +21,7 @@ namespace WebApplication6.Models
         public int OrderId { get; set; }
 
         [Column("amount")]
-        public double Amount { get; set; }
+        public decimal Amount { get; set; }
 
         [Column("createdAt")]
         public DateTimeOffset CreatedAt { get; set; }

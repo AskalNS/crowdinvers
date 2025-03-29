@@ -36,16 +36,33 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="container-fluid body-content">
+        <div class="container-fluid body-content  background-image">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
             </footer>
         </div>
+
+
     </form>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/Scripts/bootstrap.js") %>
     </asp:PlaceHolder>
+    <style>
+       .background-image::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/BackForDefault1.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: -1; /* отправляем на задний план */
+        }
+
+    </style>
 </body>
 </html>

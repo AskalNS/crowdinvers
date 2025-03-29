@@ -38,7 +38,7 @@
                                 <p class="card-text text-muted">
                                     Органикалық өнімдерді өндіру және оларды ұлттық нарыққа шығару. Фермерлердің өнімдерін қабылдау және оларды сапалы түрде өңдеу.
                                 </p>
-                                <a href="#" class="btn btn-dark">Толығырақ</a>
+                                <a href="https://localhost:44333/Login.aspx" class="btn btn-dark">Толығырақ</a>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                                 <p class="card-text text-muted">
                                     Ұлттық киімдер мен коверлерді шығару. Қазақстандық жүн мен мақтаны пайдалана отырып, сапалы материалдар өндіру.
                                 </p>
-                                <a href="#" class="btn btn-dark">Толығырақ</a>
+                                <a href="https://localhost:44333/Login.aspx" class="btn btn-dark">Толығырақ</a>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                                 <p class="card-text text-muted">
                                     Медициналық маскалар, перчаткалар және басқа да қорғаныс құралдарын шығару. Дәрі-дәрмектердің ортақ қажеттілігін қамтамасыз ету.
                                 </p>
-                                <a href="#" class="btn btn-dark">Толығырақ</a>
+                                <a href="https://localhost:44333/Login.aspx" class="btn btn-dark">Толығырақ</a>
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                        <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#faqAccordion">
                             <div class="card-body">
                                 Біз негізгі төлем әдістерін қолдаймыз: кредит карталары, электрондық әмияндар және банктік аударымдар.
                             </div>
@@ -161,14 +161,6 @@
             </div>
         </div>
 
-        <!-- Секция с кнопками "Начать сейчас" -->
-        <div class="row mt-5">
-            <div class="col-md-12 text-center">
-                <h2>Дәл қазір бастаңыз</h2>
-                <a href="/Register" class="btn btn-dark btn-lg">Тіркелу</a>
-                <a href="/Login" class="btn btn-outline-dark btn-lg">Кіру</a>
-            </div>
-        </div>
 
         <!-- Секция с социальными сетями -->
         <div class="row mt-5">
@@ -194,17 +186,14 @@
                 <div class="col-md-4">
                     <h5>Пайдалы сілтемелер</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Қолдану шарттары</a></li>
-                        <li><a href="#" class="text-white">Құпиялылық саясаты</a></li>
-                        <li><a href="#" class="text-white">Жиі қойылатын сұрақтар</a></li>
+                        <li><a href="https://localhost:44333/PlatformAgreement.aspx" class="text-white">Қолдану шарттары</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h5>Біздің әлеуметтік желілер</h5>
-                    <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    <p><a href="#" class="text-white"><i class="fab fa-facebook-f"></i>facebook</a></p>
+                    <p> <a href="#" class="text-white"><i class="fab fa-twitter"></i>twitter</a></p>
+                    <p> <a href="#" class="text-white"><i class="fab fa-instagram"></i>instagram</a></p>
                 </div>
             </div>
         </div>

@@ -51,7 +51,7 @@ namespace WebApplication6
                     transactions = db.Transaction.Where(x => x.InvestorId == investor.Id).ToList();
                 }
             }
-            double balance = 0;
+            decimal balance = 0;
             foreach (var transaction in transactions)
             {
                 if (transaction.TrasactionType == 1010)

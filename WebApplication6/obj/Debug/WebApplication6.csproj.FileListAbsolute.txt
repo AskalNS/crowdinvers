@@ -236,3 +236,5 @@ C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Mi
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate8.resources
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate9.resources
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate10.resources
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate11.resources
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate12.resources
