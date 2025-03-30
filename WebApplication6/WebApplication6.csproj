@@ -385,11 +385,18 @@
     <Compile Include="Migrations\202503241639417_InitialCreate12.Designer.cs">
       <DependentUpon>202503241639417_InitialCreate12.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202503291336416_InitialCreate13.cs" />
+    <Compile Include="Migrations\202503291336416_InitialCreate13.Designer.cs">
+      <DependentUpon>202503291336416_InitialCreate13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202503291520527_InitialCreate14.cs" />
+    <Compile Include="Migrations\202503291520527_InitialCreate14.Designer.cs">
+      <DependentUpon>202503291520527_InitialCreate14.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Business.cs" />
     <Compile Include="Models\Investing.cs" />
-    <Compile Include="Models\Investment.cs" />
     <Compile Include="Models\InvestmentDTO.cs" />
     <Compile Include="Models\Investor.cs" />
     <Compile Include="Models\Order.cs" />
@@ -578,6 +585,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202503241639417_InitialCreate12.resx">
       <DependentUpon>202503241639417_InitialCreate12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202503291336416_InitialCreate13.resx">
+      <DependentUpon>202503291336416_InitialCreate13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202503291520527_InitialCreate14.resx">
+      <DependentUpon>202503291520527_InitialCreate14.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

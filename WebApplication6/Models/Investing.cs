@@ -17,8 +17,8 @@ namespace WebApplication6.Models
         [Column("investorId")]
         public int InvestorId { get; set; }
 
-        [Column("businessId")]
-        public int BusinessId { get; set; }
+        [Column("orderId")]
+        public int OrderId { get; set; }
 
         [Column("amount")]
         public decimal Amount { get; set; }

@@ -145,17 +145,25 @@ namespace WebApplication6
             var invest = new InvestmentDTO()
             {
                 InvestorId = investor.Id,
-                InvestorFio = investor.Fio,
-                InvestorIin = investor.Iin,
-                BusinessId = business.Id,
-                BusinessFio = business.OwnerFIO,
-                BusinessBin = business.CompanyBIN,
+                OrderId = orderID,
+                CreatedAt = DateTimeOffset.Now,
                 number = CardUtill.Encrypt(cardNumber.Text),
                 date = CardUtill.Encrypt(expiryDate.Text),
                 cvv = CardUtill.HashCVV(cvv.Text),
-                amount = InvestmentAmount
+                Amount = InvestmentAmount
             };
 
+            using(var db = new ApplicationDbContext())
+            {
+                db.Investing.Add(new Investing
+                {
+                    InvestorId = invest.InvestorId,
+                    OrderId = orderID,
+                    Amount = InvestmentAmount,
+                    CreatedAt = DateTimeOffset.Now
+                });
+                db.SaveChanges();
+            }
 
 
             var config = new ProducerConfig

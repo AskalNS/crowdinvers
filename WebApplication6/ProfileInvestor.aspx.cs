@@ -63,7 +63,7 @@ namespace WebApplication6
                     balance -= transaction.Amount;
                 }
             }
-            litBalance.Text = "  " + balance;
+            litBalance.Text = "" + balance;
         }
 
 
@@ -96,7 +96,7 @@ namespace WebApplication6
                 ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Введите корректную сумму инвестиции.');", true);
                 return;
             }
-            if (InvestmentAmount > int.Parse(litBalance.Text))
+            if (InvestmentAmount > decimal.Parse(litBalance.Text))
             {
                 ClientScript.RegisterStartupScript(this.GetType(), "InvalidAmount", "alert('Балансыңыздағы ақша жетпейді.');", true);
                 return;
@@ -130,7 +130,7 @@ namespace WebApplication6
                 InvestorId = investor.Id,
                 OrderId = -1,
                 Amount = InvestmentAmount,
-                TrasactionType = 1010,
+                TrasactionType = 1011,
                 CreatedAt = DateTimeOffset.Now,
                 cardNumber = CardUtill.Encrypt(cardNumber.Text)
 
