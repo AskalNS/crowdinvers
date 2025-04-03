@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Pc\\Desktop\\WebApplication6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\businessdefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\businessdefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\ordersforadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\ordersforadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|c:\\users\\pc\\desktop\\webapplication6\\webapplication6\\orderdetailsforinvestor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\orderdetailsforinvestor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\profileinvestor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\profileinvestor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\migrations\\202503291520527_initialcreate14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -231,10 +239,6 @@
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\createorder.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\ordersforadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\ordersforadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\aboutmeexamples.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\aboutmeexamples.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -261,10 +265,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\ordersforbusiness.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\ordersforbusiness.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\businessdefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\businessdefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\contactforbusiness.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -358,24 +358,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "OrderDetailsForInvestor.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForInvestor.aspx.cs",
               "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx.cs",
               "RelativeToolTip": "WebApplication6\\OrderDetailsForInvestor.aspx.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAIA1wFcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAEwFcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T18:08:51.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "OrderDetailsForInvestor.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForInvestor.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx",
+              "RelativeToolTip": "WebApplication6\\OrderDetailsForInvestor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-17T18:05:38.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Order.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\Order.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:41:55.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Investing.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investing.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\Investing.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investing.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\Investing.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:38:18.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersForAdmin.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\OrdersForAdmin.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx",
+              "RelativeToolTip": "WebApplication6\\OrdersForAdmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-22T07:32:45.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Site.Master",
+              "RelativeDocumentMoniker": "WebApplication6\\Site.Master",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Site.Master",
+              "RelativeToolTip": "WebApplication6\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-02T14:40:49.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BusinessDefault.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\BusinessDefault.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\BusinessDefault.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\BusinessDefault.aspx",
+              "RelativeToolTip": "WebApplication6\\BusinessDefault.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-09T14:26:39.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrdersForInvestor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\OrdersForInvestor.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\OrdersForInvestor.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:57:39.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProfileInvestor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\ProfileInvestor.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\ProfileInvestor.aspx.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAcwIQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:36:14.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\ApplicationDbContext.cs",
@@ -387,72 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProfileInvestor.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\ProfileInvestor.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\ProfileInvestor.aspx.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAcwIQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T17:36:14.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrdersForInvestor.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\OrdersForInvestor.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\OrdersForInvestor.aspx.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T17:57:39.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderDetailsForInvestor.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForInvestor.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx",
-              "RelativeToolTip": "WebApplication6\\OrderDetailsForInvestor.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-17T18:05:38.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Order.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\Order.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T14:41:55.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Investing.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investing.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\Investing.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investing.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\Investing.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T16:38:18.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\Transaction.cs",
@@ -464,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "InvestmentDTO.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\InvestmentDTO.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\InvestmentDTO.cs",
@@ -476,19 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Site.Master",
-              "RelativeDocumentMoniker": "WebApplication6\\Site.Master",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Site.Master",
-              "RelativeToolTip": "WebApplication6\\Site.Master",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-02T14:40:49.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "202503291520527_InitialCreate14.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503291520527_InitialCreate14.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503291520527_InitialCreate14.cs",
@@ -500,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Login.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Login.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Login.aspx.cs",
@@ -512,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "OrdersForInvestor.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\OrdersForInvestor.aspx",
@@ -524,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "RegisterBusiness.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterBusiness.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\RegisterBusiness.aspx.cs",
@@ -537,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "202503291336416_InitialCreate13.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503291336416_InitialCreate13.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503291336416_InitialCreate13.cs",
@@ -549,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
               "RelativeDocumentMoniker": "packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
@@ -561,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Refill.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Refill.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\Refill.cs",
@@ -573,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\User.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\User.cs",
@@ -585,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Business.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Business.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\Business.cs",
@@ -597,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Default.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\Default.aspx",
@@ -609,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Investor.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investor.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\Investor.cs",
@@ -621,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "202503241636505_InitialCreate11.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503241636505_InitialCreate11.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503241636505_InitialCreate11.cs",
@@ -633,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "202503241639417_InitialCreate12.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503241639417_InitialCreate12.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503241639417_InitialCreate12.cs",
@@ -645,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Web.config",
               "RelativeDocumentMoniker": "WebApplication6\\Web.config",
@@ -658,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "ProductDatabaseInitializer.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\ProductDatabaseInitializer.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\ProductDatabaseInitializer.cs",
@@ -670,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "PostgresConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\PostgresConfiguration.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\PostgresConfiguration.cs",
@@ -682,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "OrderDetails.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetails.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrderDetails.aspx.cs",
@@ -694,7 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "RegisterInvestor.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterInvestor.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\RegisterInvestor.aspx.cs",
@@ -707,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "RegisterInvestor.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterInvestor.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\RegisterInvestor.aspx",
@@ -719,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "ProfileBusiness.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileBusiness.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\ProfileBusiness.aspx",
@@ -731,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "TransactionDTO.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\TransactionDTO.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\TransactionDTO.cs",
@@ -743,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "RefillDTO.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\RefillDTO.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\RefillDTO.cs",
@@ -755,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "OrderDetailsForAdmin.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForAdmin.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForAdmin.aspx",
@@ -767,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "ProfileInvestor.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\ProfileInvestor.aspx",
@@ -779,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "OrderDetails.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetails.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\OrderDetails.aspx",
@@ -791,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "MyOrders.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyOrders.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\MyOrders.aspx.cs",
@@ -803,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "MyOrders.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyOrders.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\MyOrders.aspx",
@@ -815,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "InvestorDefault.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\InvestorDefault.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\InvestorDefault.aspx",
@@ -827,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "ProfileInvestor.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication6\\ProfileInvestor.aspx.designer.cs",
@@ -839,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "RegisterBusiness.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterBusiness.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\RegisterBusiness.aspx",
@@ -851,7 +873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "202503231905232_InitialCreate10.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231905232_InitialCreate10.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503231905232_InitialCreate10.cs",
@@ -863,7 +885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\Admin.cs",
@@ -875,7 +897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "RepaymentSchedule.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\RepaymentSchedule.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\RepaymentSchedule.cs",
@@ -887,7 +909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "Login.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Login.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\Login.aspx",
@@ -899,7 +921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "OrdersForBusiness.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForBusiness.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\OrdersForBusiness.aspx",
@@ -911,7 +933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "ProfileBusiness.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileBusiness.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\ProfileBusiness.aspx.cs",
@@ -923,7 +945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "202503231729435_InitialCreate9.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231729435_InitialCreate9.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503231729435_InitialCreate9.cs",
@@ -935,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Global.asax.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Global.asax.cs",
@@ -947,7 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\Configuration.cs",
@@ -959,7 +981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "OrdersForAdmin.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrdersForAdmin.aspx.cs",
@@ -971,7 +993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "OrderDetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\OrderDetailsViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\OrderDetailsViewModel.cs",
@@ -983,7 +1005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "OrderDetailsForAdmin.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForAdmin.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForAdmin.aspx.cs",
@@ -996,7 +1018,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "202503231121080_InitialCreate8.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231121080_InitialCreate8.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503231121080_InitialCreate8.cs",
@@ -1008,7 +1030,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "OrderDetails.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetails.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrderDetails.aspx.designer.cs",
@@ -1020,7 +1042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "202503231048391_InitialCreate7.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231048391_InitialCreate7.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503231048391_InitialCreate7.cs",
@@ -1032,7 +1054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "202503231046038_InitialCreate6.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231046038_InitialCreate6.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503231046038_InitialCreate6.cs",
@@ -1044,19 +1066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "OrdersForAdmin.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\OrdersForAdmin.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx",
-              "RelativeToolTip": "WebApplication6\\OrdersForAdmin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-22T07:32:45.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "CreateOrder.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\CreateOrder.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\CreateOrder.aspx",
@@ -1068,7 +1078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "AboutMeExamples.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\AboutMeExamples.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\AboutMeExamples.aspx",
@@ -1080,7 +1090,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "CreateRepaymentSchedule.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\CreateRepaymentSchedule.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\CreateRepaymentSchedule.aspx",
@@ -1092,7 +1102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "OrdersForAdmin.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrdersForAdmin.aspx.designer.cs",
@@ -1100,11 +1110,12 @@
               "RelativeToolTip": "WebApplication6\\OrdersForAdmin.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T07:57:19.025Z"
+              "WhenOpened": "2025-03-22T07:57:19.025Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "OrderDetailsForInvestor.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForInvestor.aspx.designer.cs",
@@ -1116,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "CreateOrder.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\CreateOrder.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\CreateOrder.aspx.cs",
@@ -1128,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "ViewSwitcher.ascx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ViewSwitcher.ascx",
               "RelativeDocumentMoniker": "WebApplication6\\ViewSwitcher.ascx",
@@ -1140,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "OrdersForBusiness.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForBusiness.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrdersForBusiness.aspx.cs",
@@ -1149,18 +1160,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T17:55:46.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "BusinessDefault.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\BusinessDefault.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\BusinessDefault.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\BusinessDefault.aspx",
-              "RelativeToolTip": "WebApplication6\\BusinessDefault.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-09T14:26:39.871Z"
             },
             {
               "$type": "Document",

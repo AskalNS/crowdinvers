@@ -62,6 +62,9 @@
             background-position: center;
             z-index: -1; /* отправляем на задний план */
         }
+       body {
+            font-family: math;
+        }
 
     </style>
 </body>
