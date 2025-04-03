@@ -164,28 +164,83 @@
                       </div>
 
                       <div class="mb-4">
-                            <!-- Поле для загрузки -->
-                            <asp:FileUpload ID="FileUploadControl" runat="server" />
-                            <asp:Button ID="UploadButton" runat="server" Text="Загрузить" OnClick="UploadButton_Click" />
-                            <br /><br />
-
-                            <!-- Сообщение о статусе -->
-                            <asp:Label ID="StatusLabel" runat="server" ForeColor="Red" />
-                            <br /><br />
-
-                            <!-- Скрытые ссылки, которые становятся видимыми -->
-                            <asp:HyperLink ID="PhotoLink1" runat="server" Visible="false" Target="_blank">Фото 1</asp:HyperLink>
-                            <br />
-                            <asp:HyperLink ID="PhotoLink2" runat="server" Visible="false" Target="_blank">Фото 2</asp:HyperLink>
-                            <br />
-                            <asp:HyperLink ID="PhotoLink3" runat="server" Visible="false" Target="_blank">Фото 3</asp:HyperLink>
-                            <br />
-                            <asp:HyperLink ID="PhotoLink4" runat="server" Visible="false" Target="_blank">Фото 4</asp:HyperLink>
-
-                            <!-- Поле для хранения текущего индекса -->
-                            <asp:HiddenField ID="PhotoIndex" runat="server" Value="0" />
-
-                      </div>
+                            <label class="form-label">Компания фотоларын жүктеу (4 фото)</label>
+    
+                            <!-- Контейнер для загрузки файлов -->
+                            <div class="file-upload-container border rounded p-3 mb-3">
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light">
+                                        <i class="bi bi-camera-fill text-primary"></i>
+                                    </span>
+                                    <asp:FileUpload ID="FileUploadControl" runat="server" 
+                                        CssClass="form-control" 
+                                        AllowMultiple="true"
+                                        aria-label="Фото жүктеу" />
+                                </div>
+        
+                                <!-- Кнопка загрузки -->
+                                <div class="text-center mt-3">
+                                    <asp:Button ID="UploadButton" runat="server" 
+                                        Text="Жүктеу" 
+                                        CssClass="btn btn-outline-primary" 
+                                        OnClick="UploadButton_Click" CausesValidation="false" />
+                                </div>
+        
+                                <!-- Статус загрузки -->
+                                <asp:Label ID="StatusLabel" runat="server" 
+                                    CssClass="d-block text-center mt-2 small text-muted" />
+                            </div>
+    
+                            <!-- Галерея загруженных фото -->
+                            <div class="uploaded-photos row g-2 mt-2" id="photoGallery" runat="server">
+                                <asp:HiddenField ID="PhotoIndex" runat="server" Value="0" />
+        
+                                <!-- Здесь будут отображаться превью загруженных фото -->
+                                <div class="col-3 photo-preview" id="photoPreview1" runat="server" visible="false">
+                                    <div class="card h-100">
+                                        <div class="card-body p-2 text-center">
+                                            <i class="bi bi-image text-muted" style="font-size: 2rem;"></i>
+                                            <asp:HyperLink ID="PhotoLink1" runat="server" 
+                                                CssClass="d-block small text-truncate" 
+                                                Target="_blank" />
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-3 photo-preview" id="photoPreview2" runat="server" visible="false">
+                                    <div class="card h-100">
+                                        <div class="card-body p-2 text-center">
+                                            <i class="bi bi-image text-muted" style="font-size: 2rem;"></i>
+                                            <asp:HyperLink ID="PhotoLink2" runat="server" 
+                                                CssClass="d-block small text-truncate" 
+                                                Target="_blank" />
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-3 photo-preview" id="photoPreview3" runat="server" visible="false">
+                                    <div class="card h-100">
+                                        <div class="card-body p-2 text-center">
+                                            <i class="bi bi-image text-muted" style="font-size: 2rem;"></i>
+                                            <asp:HyperLink ID="PhotoLink3" runat="server" 
+                                                CssClass="d-block small text-truncate" 
+                                                Target="_blank" />
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-3 photo-preview" id="photoPreview4" runat="server" visible="false">
+                                    <div class="card h-100">
+                                        <div class="card-body p-2 text-center">
+                                            <i class="bi bi-image text-muted" style="font-size: 2rem;"></i>
+                                            <asp:HyperLink ID="PhotoLink4" runat="server" 
+                                                CssClass="d-block small text-truncate" 
+                                                Target="_blank" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                   </div>
 
 
@@ -319,6 +374,39 @@
             .btn-lg {
                 width: 100% !important;
             }
+        }
+
+                /* Стили для загрузки файлов */
+        .file-upload-container {
+            background-color: #f8f9fa;
+            border: 1px dashed #ced4da !important;
+            transition: all 0.3s ease;
+        }
+
+        .file-upload-container:hover {
+            border-color: #6a11cb !important;
+            background-color: #f0f5ff;
+        }
+
+        /* Стили для превью фотографий */
+        .photo-preview .card {
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .photo-preview .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .photo-preview .card-body {
+            padding: 0.5rem;
+        }
+
+        /* Иконка камеры */
+        .bi-camera-fill {
+            font-size: 1.2rem;
         }
     </style>
 </asp:Content>

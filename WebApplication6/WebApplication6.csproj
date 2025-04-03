@@ -452,6 +452,14 @@
     <Compile Include="Migrations\202503291520527_InitialCreate14.Designer.cs">
       <DependentUpon>202503291520527_InitialCreate14.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202504030440598_InitialCreate15.cs" />
+    <Compile Include="Migrations\202504030440598_InitialCreate15.Designer.cs">
+      <DependentUpon>202504030440598_InitialCreate15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202504030459553_InitialCreate16.cs" />
+    <Compile Include="Migrations\202504030459553_InitialCreate16.Designer.cs">
+      <DependentUpon>202504030459553_InitialCreate16.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Business.cs" />
@@ -460,6 +468,7 @@
     <Compile Include="Models\Investor.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\OrderDetailsViewModel.cs" />
+    <Compile Include="Models\OrdersImg.cs" />
     <Compile Include="Models\PostgresConfiguration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ProductDatabaseInitializer.cs" />
@@ -671,6 +680,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202503291520527_InitialCreate14.resx">
       <DependentUpon>202503291520527_InitialCreate14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202504030440598_InitialCreate15.resx">
+      <DependentUpon>202504030440598_InitialCreate15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202504030459553_InitialCreate16.resx">
+      <DependentUpon>202504030459553_InitialCreate16.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

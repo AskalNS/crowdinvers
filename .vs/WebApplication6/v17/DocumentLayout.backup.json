@@ -3,19 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\Pc\\Desktop\\WebApplication6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|c:\\users\\pc\\desktop\\webapplication6\\webapplication6\\migrations\\202504030459553_initialcreate16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\migrations\\202504030459553_initialcreate16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|c:\\users\\pc\\desktop\\webapplication6\\webapplication6\\models\\ordersimg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\ordersimg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\registerbusiness.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\registerbusiness.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\registerbusiness.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\models\\orderdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\orderdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|c:\\users\\pc\\desktop\\webapplication6\\webapplication6\\registerbusiness.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\registerbusiness.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|c:\\users\\pc\\desktop\\webapplication6\\webapplication6\\migrations\\202504030440598_initialcreate15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\migrations\\202504030440598_initialcreate15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|c:\\users\\pc\\desktop\\webapplication6\\webapplication6\\myinvestments.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\myinvestments.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\myinvestments.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -23,7 +47,7 @@
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\businessdefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|c:\\users\\pc\\desktop\\webapplication6\\webapplication6\\platformagreementforinvestor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\platformagreementforinvestor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\platformagreementforinvestor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -35,7 +59,7 @@
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|c:\\users\\pc\\desktop\\webapplication6\\webapplication6\\platformagreementforinvestor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\platformagreementforinvestor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\platformagreementforinvestor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,11 +67,11 @@
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\registerinvestor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|c:\\users\\pc\\desktop\\webapplication6\\webapplication6\\contactforinvestor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\contactforinvestor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\contactforinvestor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|c:\\users\\pc\\desktop\\webapplication6\\webapplication6\\contactforinvestor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\contactforinvestor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\contactforinvestor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,7 +79,7 @@
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\contactforbusiness.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|c:\\users\\pc\\desktop\\webapplication6\\webapplication6\\myinvestments.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\myinvestments.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\myinvestments.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -67,16 +91,12 @@
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\ordersforinvestor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|c:\\users\\pc\\desktop\\webapplication6\\webapplication6\\orderdetailsforinvestor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\orderdetailsforinvestor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\orderdetailsforinvestor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\myorders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\myorders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\orderdetailsforbusiness.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -161,10 +181,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\models\\investmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -273,10 +289,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\models\\orderdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\orderdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A14DD03D-C152-46CC-90EC-EC8E4D34012F}|WebApplication6\\WebApplication6.csproj|C:\\Users\\Pc\\Desktop\\WebApplication6\\webapplication6\\orderdetailsforadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -390,50 +402,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyInvestments.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyInvestments.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\MyInvestments.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyInvestments.aspx",
-              "RelativeToolTip": "WebApplication6\\MyInvestments.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-03T03:14:18.288Z",
+              "DocumentIndex": 0,
+              "Title": "202504030459553_InitialCreate16.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202504030459553_InitialCreate16.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202504030459553_InitialCreate16.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202504030459553_InitialCreate16.cs",
+              "RelativeToolTip": "WebApplication6\\Migrations\\202504030459553_InitialCreate16.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:00:01.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlatformAgreement.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\PlatformAgreement.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\PlatformAgreement.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\PlatformAgreement.aspx",
-              "RelativeToolTip": "WebApplication6\\PlatformAgreement.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-21T17:06:52.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BusinessDefault.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\BusinessDefault.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\BusinessDefault.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\BusinessDefault.aspx",
-              "RelativeToolTip": "WebApplication6\\BusinessDefault.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-09T14:26:39.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RegisterBusiness.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterBusiness.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\RegisterBusiness.aspx",
@@ -446,20 +432,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RegisterBusiness.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterBusiness.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\RegisterBusiness.aspx.cs",
               "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterBusiness.aspx.cs",
               "RelativeToolTip": "WebApplication6\\RegisterBusiness.aspx.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAiwLMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAwKkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T14:40:09.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Site.Master",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Site.Master",
               "RelativeDocumentMoniker": "WebApplication6\\Site.Master",
@@ -472,826 +458,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlatformAgreementForInvestor.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\PlatformAgreementForInvestor.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\PlatformAgreementForInvestor.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\PlatformAgreementForInvestor.aspx",
-              "RelativeToolTip": "WebApplication6\\PlatformAgreementForInvestor.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-03T03:36:30.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Web.config",
-              "RelativeDocumentMoniker": "WebApplication6\\Web.config",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Web.config",
-              "RelativeToolTip": "WebApplication6\\Web.config",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-03-02T07:45:42.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegisterInvestor.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterInvestor.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\RegisterInvestor.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterInvestor.aspx",
-              "RelativeToolTip": "WebApplication6\\RegisterInvestor.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-03T18:28:52.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ContactForInvestor.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForInvestor.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\ContactForInvestor.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForInvestor.aspx",
-              "RelativeToolTip": "WebApplication6\\ContactForInvestor.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-03T03:34:46.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlatformAgreementForInvestor.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\PlatformAgreementForInvestor.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\PlatformAgreementForInvestor.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\PlatformAgreementForInvestor.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\PlatformAgreementForInvestor.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T03:36:46.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ContactForInvestor.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForInvestor.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\ContactForInvestor.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForInvestor.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\ContactForInvestor.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T03:35:04.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MyInvestments.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyInvestments.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\MyInvestments.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyInvestments.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\MyInvestments.aspx.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAmwFEAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T03:14:49.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OrdersForInvestor.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\OrdersForInvestor.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx",
-              "RelativeToolTip": "WebApplication6\\OrdersForInvestor.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-17T17:55:39.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OrderDetailsForInvestor.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForInvestor.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx",
-              "RelativeToolTip": "WebApplication6\\OrderDetailsForInvestor.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-17T18:05:38.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MyOrders.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyOrders.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\MyOrders.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyOrders.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\MyOrders.aspx.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T17:12:22.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ContactForBusiness.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForBusiness.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\ContactForBusiness.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForBusiness.aspx",
-              "RelativeToolTip": "WebApplication6\\ContactForBusiness.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-10T05:50:31.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MyOrders.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyOrders.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\MyOrders.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyOrders.aspx",
-              "RelativeToolTip": "WebApplication6\\MyOrders.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-09T17:11:07.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "OrderDetailsForBusiness.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForBusiness.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForBusiness.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForBusiness.aspx",
-              "RelativeToolTip": "WebApplication6\\OrderDetailsForBusiness.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-03T02:32:14.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Order.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\Order.cs",
               "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Order.cs",
               "RelativeToolTip": "WebApplication6\\Models\\Order.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T14:41:55.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "OrdersForInvestor.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\OrdersForInvestor.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\OrdersForInvestor.aspx.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T17:57:39.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProfileBusiness.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileBusiness.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\ProfileBusiness.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileBusiness.aspx",
-              "RelativeToolTip": "WebApplication6\\ProfileBusiness.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-23T17:33:06.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "OrderDetails.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetails.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\OrderDetails.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetails.aspx",
-              "RelativeToolTip": "WebApplication6\\OrderDetails.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-02T17:18:22.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "OrdersForBusiness.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForBusiness.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\OrdersForBusiness.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForBusiness.aspx",
-              "RelativeToolTip": "WebApplication6\\OrdersForBusiness.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-02T17:17:02.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CreateRepaymentSchedule.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\CreateRepaymentSchedule.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\CreateRepaymentSchedule.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\CreateRepaymentSchedule.aspx",
-              "RelativeToolTip": "WebApplication6\\CreateRepaymentSchedule.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-23T08:43:46.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CreateOrder.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\CreateOrder.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\CreateOrder.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\CreateOrder.aspx",
-              "RelativeToolTip": "WebApplication6\\CreateOrder.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-02T14:41:37.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ContactForBusiness.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForBusiness.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\ContactForBusiness.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForBusiness.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\ContactForBusiness.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T17:29:18.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ContactDefault.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactDefault.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\ContactDefault.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactDefault.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\ContactDefault.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T17:30:11.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ContactDefault.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactDefault.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\ContactDefault.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactDefault.aspx",
-              "RelativeToolTip": "WebApplication6\\ContactDefault.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-10T06:28:04.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "OrderDetailsForBusiness.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForBusiness.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForBusiness.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForBusiness.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\OrderDetailsForBusiness.aspx.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwEsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T02:36:18.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "OrdersForBusiness.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForBusiness.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\OrdersForBusiness.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForBusiness.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\OrdersForBusiness.aspx.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T17:55:46.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "202503091130172_InitialCreate2.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503091130172_InitialCreate2.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503091130172_InitialCreate2.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503091130172_InitialCreate2.cs",
-              "RelativeToolTip": "WebApplication6\\Migrations\\202503091130172_InitialCreate2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T11:30:23.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "OrderDetails.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetails.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\OrderDetails.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetails.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\OrderDetails.aspx.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAYwJ4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T17:18:43.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "OrderDetailsForAdmin.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForAdmin.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForAdmin.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForAdmin.aspx",
-              "RelativeToolTip": "WebApplication6\\OrderDetailsForAdmin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-22T07:34:24.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "OrdersForAdmin.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\OrdersForAdmin.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx",
-              "RelativeToolTip": "WebApplication6\\OrdersForAdmin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-22T07:32:45.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Investing.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investing.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\Investing.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investing.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\Investing.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T16:38:18.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "OrderDetailsForInvestor.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForInvestor.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\OrderDetailsForInvestor.aspx.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAEwFcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T18:08:51.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ProfileInvestor.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\ProfileInvestor.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\ProfileInvestor.aspx.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAcwIQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T17:36:14.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "WebApplication6\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwA4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T14:42:07.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\Transaction.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Transaction.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\Transaction.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwB8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T17:15:35.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "InvestmentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\InvestmentDTO.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\InvestmentDTO.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\InvestmentDTO.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\InvestmentDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T04:14:57.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "202503291520527_InitialCreate14.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503291520527_InitialCreate14.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503291520527_InitialCreate14.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503291520527_InitialCreate14.cs",
-              "RelativeToolTip": "WebApplication6\\Migrations\\202503291520527_InitialCreate14.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T15:21:06.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Login.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Login.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\Login.aspx.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAqwCYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T13:13:17.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "202503291336416_InitialCreate13.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503291336416_InitialCreate13.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503291336416_InitialCreate13.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503291336416_InitialCreate13.cs",
-              "RelativeToolTip": "WebApplication6\\Migrations\\202503291336416_InitialCreate13.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T13:36:49.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
-              "RelativeDocumentMoniker": "packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
-              "RelativeToolTip": "packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
-              "ViewState": "AgIAABcAAAAAAAAAAAAMwB4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-03-29T13:54:27.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Refill.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Refill.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\Refill.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Refill.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\Refill.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T18:45:58.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\User.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\User.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T11:17:44.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Business.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Business.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\Business.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Business.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\Business.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAADMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T15:24:18.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Default.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\Default.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Default.aspx",
-              "RelativeToolTip": "WebApplication6\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-03T18:07:40.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Investor.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investor.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\Investor.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investor.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\Investor.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T15:24:32.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "202503241636505_InitialCreate11.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503241636505_InitialCreate11.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503241636505_InitialCreate11.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503241636505_InitialCreate11.cs",
-              "RelativeToolTip": "WebApplication6\\Migrations\\202503241636505_InitialCreate11.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T16:36:59.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "202503241639417_InitialCreate12.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503241639417_InitialCreate12.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503241639417_InitialCreate12.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503241639417_InitialCreate12.cs",
-              "RelativeToolTip": "WebApplication6\\Migrations\\202503241639417_InitialCreate12.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T16:39:48.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ProductDatabaseInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\ProductDatabaseInitializer.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\ProductDatabaseInitializer.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\ProductDatabaseInitializer.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\ProductDatabaseInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwMoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T14:42:05.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "PostgresConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\PostgresConfiguration.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\PostgresConfiguration.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\PostgresConfiguration.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\PostgresConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T14:42:00.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "RegisterInvestor.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterInvestor.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\RegisterInvestor.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterInvestor.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\RegisterInvestor.aspx.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAswCkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T15:26:46.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "TransactionDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\TransactionDTO.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\TransactionDTO.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\TransactionDTO.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\TransactionDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T10:14:23.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "RefillDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\RefillDTO.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\RefillDTO.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\RefillDTO.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\RefillDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T10:16:50.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "ProfileInvestor.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\ProfileInvestor.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx",
-              "RelativeToolTip": "WebApplication6\\ProfileInvestor.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-23T17:32:21.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "InvestorDefault.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\InvestorDefault.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\InvestorDefault.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\InvestorDefault.aspx",
-              "RelativeToolTip": "WebApplication6\\InvestorDefault.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-17T17:39:53.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "ProfileInvestor.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.designer.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\ProfileInvestor.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.designer.cs",
-              "RelativeToolTip": "WebApplication6\\ProfileInvestor.aspx.designer.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAtwF8AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T10:06:19.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "202503231905232_InitialCreate10.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231905232_InitialCreate10.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503231905232_InitialCreate10.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231905232_InitialCreate10.cs",
-              "RelativeToolTip": "WebApplication6\\Migrations\\202503231905232_InitialCreate10.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T19:05:30.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\Admin.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Admin.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\Admin.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T07:39:13.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "RepaymentSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\RepaymentSchedule.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\RepaymentSchedule.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\RepaymentSchedule.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\RepaymentSchedule.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvxcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:43:54.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Login.aspx",
-              "RelativeDocumentMoniker": "WebApplication6\\Login.aspx",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Login.aspx",
-              "RelativeToolTip": "WebApplication6\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-09T13:09:50.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "ProfileBusiness.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileBusiness.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\ProfileBusiness.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileBusiness.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\ProfileBusiness.aspx.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T18:08:02.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "202503231729435_InitialCreate9.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231729435_InitialCreate9.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503231729435_InitialCreate9.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231729435_InitialCreate9.cs",
-              "RelativeToolTip": "WebApplication6\\Migrations\\202503231729435_InitialCreate9.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T17:29:57.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Global.asax.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Global.asax.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Global.asax.cs",
-              "RelativeToolTip": "WebApplication6\\Global.asax.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T16:10:16.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "WebApplication6\\Migrations\\Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T17:00:43.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "OrdersForAdmin.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\OrdersForAdmin.aspx.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx.cs",
-              "RelativeToolTip": "WebApplication6\\OrdersForAdmin.aspx.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAwA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T07:33:52.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 3,
               "Title": "OrderDetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\OrderDetailsViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\OrderDetailsViewModel.cs",
@@ -1304,7 +497,803 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersImg.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\OrdersImg.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\OrdersImg.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\OrdersImg.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\OrdersImg.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T04:37:11.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BusinessDefault.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\BusinessDefault.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\BusinessDefault.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\BusinessDefault.aspx",
+              "RelativeToolTip": "WebApplication6\\BusinessDefault.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-09T14:26:39.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "202504030440598_InitialCreate15.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202504030440598_InitialCreate15.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202504030440598_InitialCreate15.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202504030440598_InitialCreate15.cs",
+              "RelativeToolTip": "WebApplication6\\Migrations\\202504030440598_InitialCreate15.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T04:41:05.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlatformAgreement.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\PlatformAgreement.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\PlatformAgreement.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\PlatformAgreement.aspx",
+              "RelativeToolTip": "WebApplication6\\PlatformAgreement.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-21T17:06:52.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyInvestments.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyInvestments.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\MyInvestments.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyInvestments.aspx",
+              "RelativeToolTip": "WebApplication6\\MyInvestments.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-03T03:14:18.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlatformAgreementForInvestor.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\PlatformAgreementForInvestor.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\PlatformAgreementForInvestor.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\PlatformAgreementForInvestor.aspx",
+              "RelativeToolTip": "WebApplication6\\PlatformAgreementForInvestor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-03T03:36:30.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Web.config",
+              "RelativeDocumentMoniker": "WebApplication6\\Web.config",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Web.config",
+              "RelativeToolTip": "WebApplication6\\Web.config",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-02T07:45:42.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterInvestor.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterInvestor.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\RegisterInvestor.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterInvestor.aspx",
+              "RelativeToolTip": "WebApplication6\\RegisterInvestor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-03T18:28:52.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ContactForInvestor.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForInvestor.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\ContactForInvestor.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForInvestor.aspx",
+              "RelativeToolTip": "WebApplication6\\ContactForInvestor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-03T03:34:46.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlatformAgreementForInvestor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\PlatformAgreementForInvestor.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\PlatformAgreementForInvestor.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\PlatformAgreementForInvestor.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\PlatformAgreementForInvestor.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:36:46.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ContactForInvestor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForInvestor.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\ContactForInvestor.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForInvestor.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\ContactForInvestor.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:35:04.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MyInvestments.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyInvestments.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\MyInvestments.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyInvestments.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\MyInvestments.aspx.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwFEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:14:49.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrdersForInvestor.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\OrdersForInvestor.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx",
+              "RelativeToolTip": "WebApplication6\\OrdersForInvestor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-17T17:55:39.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderDetailsForInvestor.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForInvestor.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx",
+              "RelativeToolTip": "WebApplication6\\OrderDetailsForInvestor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-17T18:05:38.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MyOrders.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyOrders.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\MyOrders.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyOrders.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\MyOrders.aspx.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:12:22.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ContactForBusiness.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForBusiness.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\ContactForBusiness.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForBusiness.aspx",
+              "RelativeToolTip": "WebApplication6\\ContactForBusiness.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-10T05:50:31.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MyOrders.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyOrders.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\MyOrders.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\MyOrders.aspx",
+              "RelativeToolTip": "WebApplication6\\MyOrders.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-09T17:11:07.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderDetailsForBusiness.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForBusiness.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForBusiness.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForBusiness.aspx",
+              "RelativeToolTip": "WebApplication6\\OrderDetailsForBusiness.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-03T02:32:14.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrdersForInvestor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\OrdersForInvestor.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\OrdersForInvestor.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:57:39.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProfileBusiness.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileBusiness.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\ProfileBusiness.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileBusiness.aspx",
+              "RelativeToolTip": "WebApplication6\\ProfileBusiness.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-23T17:33:06.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderDetails.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetails.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\OrderDetails.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetails.aspx",
+              "RelativeToolTip": "WebApplication6\\OrderDetails.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-02T17:18:22.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrdersForBusiness.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForBusiness.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\OrdersForBusiness.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForBusiness.aspx",
+              "RelativeToolTip": "WebApplication6\\OrdersForBusiness.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-02T17:17:02.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateRepaymentSchedule.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\CreateRepaymentSchedule.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\CreateRepaymentSchedule.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\CreateRepaymentSchedule.aspx",
+              "RelativeToolTip": "WebApplication6\\CreateRepaymentSchedule.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-23T08:43:46.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateOrder.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\CreateOrder.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\CreateOrder.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\CreateOrder.aspx",
+              "RelativeToolTip": "WebApplication6\\CreateOrder.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-02T14:41:37.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ContactForBusiness.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForBusiness.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\ContactForBusiness.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactForBusiness.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\ContactForBusiness.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:29:18.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ContactDefault.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactDefault.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\ContactDefault.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactDefault.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\ContactDefault.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:30:11.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ContactDefault.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactDefault.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\ContactDefault.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ContactDefault.aspx",
+              "RelativeToolTip": "WebApplication6\\ContactDefault.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-10T06:28:04.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrderDetailsForBusiness.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForBusiness.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForBusiness.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForBusiness.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\OrderDetailsForBusiness.aspx.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwEsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T02:36:18.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OrdersForBusiness.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForBusiness.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\OrdersForBusiness.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForBusiness.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\OrdersForBusiness.aspx.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:55:46.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "202503091130172_InitialCreate2.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503091130172_InitialCreate2.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503091130172_InitialCreate2.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503091130172_InitialCreate2.cs",
+              "RelativeToolTip": "WebApplication6\\Migrations\\202503091130172_InitialCreate2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T11:30:23.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OrderDetails.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetails.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\OrderDetails.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetails.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\OrderDetails.aspx.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAYwJ4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T17:18:43.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderDetailsForAdmin.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForAdmin.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForAdmin.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForAdmin.aspx",
+              "RelativeToolTip": "WebApplication6\\OrderDetailsForAdmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-22T07:34:24.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OrdersForAdmin.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\OrdersForAdmin.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx",
+              "RelativeToolTip": "WebApplication6\\OrdersForAdmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-22T07:32:45.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Investing.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investing.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\Investing.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investing.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\Investing.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:38:18.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "OrderDetailsForInvestor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForInvestor.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\OrderDetailsForInvestor.aspx.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAEwFcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T18:08:51.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProfileInvestor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\ProfileInvestor.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\ProfileInvestor.aspx.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAcwIQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:36:14.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Transaction.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:15:35.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "InvestmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\InvestmentDTO.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\InvestmentDTO.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\InvestmentDTO.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\InvestmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T04:14:57.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "202503291520527_InitialCreate14.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503291520527_InitialCreate14.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503291520527_InitialCreate14.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503291520527_InitialCreate14.cs",
+              "RelativeToolTip": "WebApplication6\\Migrations\\202503291520527_InitialCreate14.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T15:21:06.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Login.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\Login.aspx.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T13:13:17.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "202503291336416_InitialCreate13.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503291336416_InitialCreate13.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503291336416_InitialCreate13.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503291336416_InitialCreate13.cs",
+              "RelativeToolTip": "WebApplication6\\Migrations\\202503291336416_InitialCreate13.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T13:36:49.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+              "RelativeDocumentMoniker": "packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+              "RelativeToolTip": "packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+              "ViewState": "AgIAABcAAAAAAAAAAAAMwB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-29T13:54:27.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Refill.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Refill.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\Refill.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Refill.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\Refill.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:45:58.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\User.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T11:17:44.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Business.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Business.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\Business.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Business.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\Business.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:24:18.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Default.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\Default.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Default.aspx",
+              "RelativeToolTip": "WebApplication6\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-03T18:07:40.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Investor.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investor.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\Investor.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Investor.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\Investor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:24:32.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "202503241636505_InitialCreate11.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503241636505_InitialCreate11.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503241636505_InitialCreate11.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503241636505_InitialCreate11.cs",
+              "RelativeToolTip": "WebApplication6\\Migrations\\202503241636505_InitialCreate11.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:36:59.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "202503241639417_InitialCreate12.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503241639417_InitialCreate12.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503241639417_InitialCreate12.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503241639417_InitialCreate12.cs",
+              "RelativeToolTip": "WebApplication6\\Migrations\\202503241639417_InitialCreate12.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:39:48.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ProductDatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\ProductDatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\ProductDatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\ProductDatabaseInitializer.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\ProductDatabaseInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwMoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:42:05.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PostgresConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\PostgresConfiguration.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\PostgresConfiguration.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\PostgresConfiguration.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\PostgresConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:42:00.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "RegisterInvestor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterInvestor.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\RegisterInvestor.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterInvestor.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\RegisterInvestor.aspx.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswCkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:26:46.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "TransactionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\TransactionDTO.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\TransactionDTO.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\TransactionDTO.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\TransactionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:14:23.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "RefillDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\RefillDTO.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\RefillDTO.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\RefillDTO.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\RefillDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:16:50.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ProfileInvestor.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\ProfileInvestor.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx",
+              "RelativeToolTip": "WebApplication6\\ProfileInvestor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-23T17:32:21.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "InvestorDefault.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\InvestorDefault.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\InvestorDefault.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\InvestorDefault.aspx",
+              "RelativeToolTip": "WebApplication6\\InvestorDefault.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-17T17:39:53.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ProfileInvestor.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.designer.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\ProfileInvestor.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileInvestor.aspx.designer.cs",
+              "RelativeToolTip": "WebApplication6\\ProfileInvestor.aspx.designer.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAtwF8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:06:19.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "202503231905232_InitialCreate10.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231905232_InitialCreate10.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503231905232_InitialCreate10.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231905232_InitialCreate10.cs",
+              "RelativeToolTip": "WebApplication6\\Migrations\\202503231905232_InitialCreate10.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T19:05:30.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\Admin.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\Admin.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T07:39:13.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "RepaymentSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\RepaymentSchedule.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\RepaymentSchedule.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Models\\RepaymentSchedule.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\RepaymentSchedule.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T06:43:54.553Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 69,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Login.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\Login.aspx",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Login.aspx",
+              "RelativeToolTip": "WebApplication6\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-09T13:09:50.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ProfileBusiness.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileBusiness.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\ProfileBusiness.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ProfileBusiness.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\ProfileBusiness.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:08:02.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "202503231729435_InitialCreate9.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231729435_InitialCreate9.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503231729435_InitialCreate9.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231729435_InitialCreate9.cs",
+              "RelativeToolTip": "WebApplication6\\Migrations\\202503231729435_InitialCreate9.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:29:57.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Global.asax.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Global.asax.cs",
+              "RelativeToolTip": "WebApplication6\\Global.asax.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T16:10:16.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "WebApplication6\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T17:00:43.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "OrdersForAdmin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\OrdersForAdmin.aspx.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx.cs",
+              "RelativeToolTip": "WebApplication6\\OrdersForAdmin.aspx.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T07:33:52.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
               "Title": "OrderDetailsForAdmin.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForAdmin.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForAdmin.aspx.cs",
@@ -1317,7 +1306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 74,
               "Title": "202503231121080_InitialCreate8.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231121080_InitialCreate8.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503231121080_InitialCreate8.cs",
@@ -1325,12 +1314,11 @@
               "RelativeToolTip": "WebApplication6\\Migrations\\202503231121080_InitialCreate8.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T11:21:19.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T11:21:19.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 76,
               "Title": "OrderDetails.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetails.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrderDetails.aspx.designer.cs",
@@ -1338,12 +1326,11 @@
               "RelativeToolTip": "WebApplication6\\OrderDetails.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T17:18:42.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T17:18:42.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 75,
               "Title": "202503231048391_InitialCreate7.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231048391_InitialCreate7.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503231048391_InitialCreate7.cs",
@@ -1351,12 +1338,11 @@
               "RelativeToolTip": "WebApplication6\\Migrations\\202503231048391_InitialCreate7.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T10:48:45.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T10:48:45.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 77,
               "Title": "202503231046038_InitialCreate6.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503231046038_InitialCreate6.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503231046038_InitialCreate6.cs",
@@ -1364,12 +1350,11 @@
               "RelativeToolTip": "WebApplication6\\Migrations\\202503231046038_InitialCreate6.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T10:46:10.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T10:46:10.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 78,
               "Title": "AboutMeExamples.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\AboutMeExamples.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\AboutMeExamples.aspx",
@@ -1377,12 +1362,11 @@
               "RelativeToolTip": "WebApplication6\\AboutMeExamples.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-21T15:06:02.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T15:06:02.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 79,
               "Title": "OrdersForAdmin.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForAdmin.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrdersForAdmin.aspx.designer.cs",
@@ -1390,12 +1374,11 @@
               "RelativeToolTip": "WebApplication6\\OrdersForAdmin.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T07:57:19.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T07:57:19.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 80,
               "Title": "OrderDetailsForInvestor.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrderDetailsForInvestor.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrderDetailsForInvestor.aspx.designer.cs",
@@ -1403,12 +1386,11 @@
               "RelativeToolTip": "WebApplication6\\OrderDetailsForInvestor.aspx.designer.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAnwCAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T02:32:42.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T02:32:42.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 81,
               "Title": "CreateOrder.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\CreateOrder.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\CreateOrder.aspx.cs",
@@ -1416,12 +1398,11 @@
               "RelativeToolTip": "WebApplication6\\CreateOrder.aspx.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAYwD0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T14:41:46.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T14:41:46.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 82,
               "Title": "ViewSwitcher.ascx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\ViewSwitcher.ascx",
               "RelativeDocumentMoniker": "WebApplication6\\ViewSwitcher.ascx",
@@ -1429,12 +1410,11 @@
               "RelativeToolTip": "WebApplication6\\ViewSwitcher.ascx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2025-03-22T07:01:12.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T07:01:12.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 83,
               "Title": "RiskAwarenessTest.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RiskAwarenessTest.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\RiskAwarenessTest.aspx.cs",
@@ -1442,12 +1422,11 @@
               "RelativeToolTip": "WebApplication6\\RiskAwarenessTest.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T05:01:44.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T05:01:44.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 84,
               "Title": "RiskAwarenessTest.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RiskAwarenessTest.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\RiskAwarenessTest.aspx",
@@ -1455,12 +1434,11 @@
               "RelativeToolTip": "WebApplication6\\RiskAwarenessTest.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-22T05:01:10.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T05:01:10.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 85,
               "Title": "RiskAwarenessTest.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RiskAwarenessTest.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication6\\RiskAwarenessTest.aspx.designer.cs",
@@ -1468,12 +1446,11 @@
               "RelativeToolTip": "WebApplication6\\RiskAwarenessTest.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T05:08:01.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T05:08:01.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 86,
               "Title": "About.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\About.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\About.aspx",
@@ -1481,12 +1458,11 @@
               "RelativeToolTip": "WebApplication6\\About.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-21T15:06:17.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T15:06:17.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 87,
               "Title": "202503211410334_InitialCreate5.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503211410334_InitialCreate5.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503211410334_InitialCreate5.cs",
@@ -1494,12 +1470,11 @@
               "RelativeToolTip": "WebApplication6\\Migrations\\202503211410334_InitialCreate5.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T14:10:40.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T14:10:40.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 88,
               "Title": "CardUtill.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\utills\\CardUtill.cs",
               "RelativeDocumentMoniker": "WebApplication6\\utills\\CardUtill.cs",
@@ -1507,12 +1482,11 @@
               "RelativeToolTip": "WebApplication6\\utills\\CardUtill.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T03:14:00.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T03:14:00.422Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 89,
               "Title": "InvestorDefault.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\InvestorDefault.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\InvestorDefault.aspx.cs",
@@ -1520,12 +1494,11 @@
               "RelativeToolTip": "WebApplication6\\InvestorDefault.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T02:32:38.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T02:32:38.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 90,
               "Title": "OrdersForInvestor.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\OrdersForInvestor.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication6\\OrdersForInvestor.aspx.designer.cs",
@@ -1533,12 +1506,11 @@
               "RelativeToolTip": "WebApplication6\\OrdersForInvestor.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T18:08:52.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T18:08:52.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 97,
               "Title": "Orders.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Orders.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Orders.aspx.cs",
@@ -1549,7 +1521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 91,
               "Title": "Validate.aspx",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Validate.aspx",
               "RelativeDocumentMoniker": "WebApplication6\\Validate.aspx",
@@ -1557,12 +1529,11 @@
               "RelativeToolTip": "WebApplication6\\Validate.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-09T14:23:37.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T14:23:37.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 92,
               "Title": "RegisterInvestor.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\RegisterInvestor.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication6\\RegisterInvestor.aspx.designer.cs",
@@ -1570,12 +1541,11 @@
               "RelativeToolTip": "WebApplication6\\RegisterInvestor.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T13:42:44.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T13:42:44.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 93,
               "Title": "202503091145250_InitialCreate4.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503091145250_InitialCreate4.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503091145250_InitialCreate4.cs",
@@ -1583,12 +1553,11 @@
               "RelativeToolTip": "WebApplication6\\Migrations\\202503091145250_InitialCreate4.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T11:45:30.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T11:45:30.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 94,
               "Title": "202503091132017_InitialCreate3.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503091132017_InitialCreate3.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503091132017_InitialCreate3.cs",
@@ -1596,12 +1565,11 @@
               "RelativeToolTip": "WebApplication6\\Migrations\\202503091132017_InitialCreate3.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T11:32:06.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T11:32:06.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 95,
               "Title": "202503090910565_InitialCreate1.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503090910565_InitialCreate1.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503090910565_InitialCreate1.cs",
@@ -1609,12 +1577,11 @@
               "RelativeToolTip": "WebApplication6\\Migrations\\202503090910565_InitialCreate1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T09:11:07.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T09:11:07.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 96,
               "Title": "202503021700556_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\WebApplication6\\WebApplication6\\Migrations\\202503021700556_InitialCreate.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Migrations\\202503021700556_InitialCreate.cs",
@@ -1622,8 +1589,7 @@
               "RelativeToolTip": "WebApplication6\\Migrations\\202503021700556_InitialCreate.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T17:00:59.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T17:00:59.911Z"
             }
           ]
         }

@@ -258,6 +258,33 @@ namespace WebApplication6
         protected global::System.Web.UI.WebControls.Label StatusLabel;
 
         /// <summary>
+        /// photoGallery control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl photoGallery;
+
+        /// <summary>
+        /// PhotoIndex control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField PhotoIndex;
+
+        /// <summary>
+        /// photoPreview1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl photoPreview1;
+
+        /// <summary>
         /// PhotoLink1 control.
         /// </summary>
         /// <remarks>
@@ -265,6 +292,15 @@ namespace WebApplication6
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink PhotoLink1;
+
+        /// <summary>
+        /// photoPreview2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl photoPreview2;
 
         /// <summary>
         /// PhotoLink2 control.
@@ -276,6 +312,15 @@ namespace WebApplication6
         protected global::System.Web.UI.WebControls.HyperLink PhotoLink2;
 
         /// <summary>
+        /// photoPreview3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl photoPreview3;
+
+        /// <summary>
         /// PhotoLink3 control.
         /// </summary>
         /// <remarks>
@@ -285,6 +330,15 @@ namespace WebApplication6
         protected global::System.Web.UI.WebControls.HyperLink PhotoLink3;
 
         /// <summary>
+        /// photoPreview4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl photoPreview4;
+
+        /// <summary>
         /// PhotoLink4 control.
         /// </summary>
         /// <remarks>
@@ -292,15 +346,6 @@ namespace WebApplication6
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink PhotoLink4;
-
-        /// <summary>
-        /// PhotoIndex control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField PhotoIndex;
 
         /// <summary>
         /// txtAboutMe control.
