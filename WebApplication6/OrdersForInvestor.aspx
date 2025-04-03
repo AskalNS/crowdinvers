@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Заказы" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="OrdersForInvestor.aspx.cs" Inherits="WebApplication6.OrdersForInvestor" %>
+﻿<%@ Page Title="Тапсырыстар" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="OrdersForInvestor.aspx.cs" Inherits="WebApplication6.OrdersForInvestor" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -25,16 +25,16 @@
     <div class ="container" style="margin-top: 40px;">
 
             <div class="container mt-5">
-        <h2 class="text-center mb-4">Заказы</h2>
+        <h2 class="text-center mb-4">Тапсырыстар</h2>
         <asp:Repeater ID="rptOrders" runat="server" OnItemCommand="rptOrders_ItemCommand">
             <ItemTemplate>
                 <div class="card mb-4 shadow-sm">
                     <div class="card-body">
                         <h5 class="card-title"><%# Eval("Target") %></h5>
                         <p class="card-text"><%# Eval("Description") %></p>
-                        <p class="card-text"><strong>Целевая сумма:</strong> <%# Eval("TargetAmount", "{0:C}") %></p>
-                        <p class="card-text"><strong>Собрано:</strong> <%# Eval("CurrentAmount", "{0:C}") %></p>
-                        <p class="card-text"><strong>Срок выполнения:</strong> <%# Eval("DueDate", "{0:dd.MM.yyyy}") %></p>
+                        <p class="card-text"><strong>Нысаналы сома:</strong> <%# Eval("TargetAmount", "{0:C}") %></p>
+                        <p class="card-text"><strong>Жиналған сома:</strong> <%# Eval("CurrentAmount", "{0:C}") %></p>
+                        <p class="card-text"><strong>Орындау мерзімі:</strong> <%# Eval("DueDate", "{0:dd.MM.yyyy}") %></p>
                         
                         <!-- Прогресс-бар -->
                         <div class="progress mb-3" style="height: 10px; width: 50%;">
@@ -46,7 +46,7 @@
                             </div>
                         </div>
 
-                        <asp:Button ID="btnViewDetails" runat="server" CssClass="btn btn-dark" Text="Подробнее" CommandName="ViewDetails" CommandArgument='<%# Eval("Id") %>' />
+                        <asp:Button ID="btnViewDetails" runat="server" CssClass="btn btn-dark" Text="Толығырақ" CommandName="ViewDetails" CommandArgument='<%# Eval("Id") %>' />
                     </div>
                 </div>
             </ItemTemplate>

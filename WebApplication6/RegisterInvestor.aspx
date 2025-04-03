@@ -121,7 +121,7 @@
                   </div>
               </div>
               
-                <a href="https://localhost:44333/PlatformAgreement.aspx" style="margin-top:0px;">Келесісім шарт</a>.
+                <a href="https://localhost:44333/PlatformAgreementForInvestor.aspx" style="margin-top:0px;">Келесісім шарт</a>.
                   
                 <div style="margin-top:0px; margin-bottom:50px">
                     <div class="input-group">

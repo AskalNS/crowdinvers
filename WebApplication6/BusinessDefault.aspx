@@ -96,14 +96,6 @@
         </div>
     </div>
 
-    <!-- Призыв к действию -->
-    <div class="cta-section text-center text-white py-5">
-        <div class="container">
-            <h3 class="mb-4">Дәл қазір бізге хабарласыңыз және тегін кеңес алыңыз!</h3>
-            <a href="/Contact.aspx" class="btn btn-light btn-lg">Хабарласу</a>
-        </div>
-    </div>
-
     <!-- Отзывы -->
     <div class="py-5 bg-light">
         <div class="container">

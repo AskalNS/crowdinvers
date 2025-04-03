@@ -1,21 +1,28 @@
 ﻿using System;
+using System.Configuration;
 using System.Linq;
 using System.Security.Cryptography;
+using System.Security.Principal;
 using System.Text;
 using System.Web.UI;
 using WebApplication6.Models;
+using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
+using System.Web.UI.WebControls;
 
 namespace WebApplication6
 {
     public partial class RegisterBusiness : System.Web.UI.Page
     {
+        private Cloudinary _cloudinary;
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Логика загрузки страницы
+
+
         }
 
         protected void btnRegister_Click(object sender, EventArgs e)
-            {
+        {
             if (Page.IsValid && chkAgreemm.Checked) // Проверка валидации
             {
 
@@ -64,7 +71,7 @@ namespace WebApplication6
                     Salt = salt,
                     Role = "BUSINESS"
                 };
-                
+
                 // Сохранение в базу данных
                 using (var db = new ApplicationDbContext()) // Замените на ваш контекст
                 {
@@ -116,5 +123,64 @@ namespace WebApplication6
                 return Convert.ToBase64String(hash);
             }
         }
+
+
+        protected void UploadButton_Click(object sender, EventArgs e)
+        {
+            var account = new Account(
+                "dug68sc7q",
+                "365952145816191",
+                "pUFV80AoFijHJ_hhQrgrDpStadk"
+            );
+            _cloudinary = new Cloudinary(account);
+
+            if (!FileUploadControl.HasFile)
+            {
+                StatusLabel.Text = "Выберите файл для загрузки!";
+                return;
+            }
+
+            int photoIndex = int.Parse(PhotoIndex.Value); // Получаем текущий индекс
+            if (photoIndex >= 4)
+            {
+                StatusLabel.Text = "Все 4 изображения уже загружены!";
+                return;
+            }
+
+            try
+            {
+                using (var stream = FileUploadControl.PostedFile.InputStream)
+                {
+                    var uploadParams = new ImageUploadParams()
+                    {
+                        File = new FileDescription(FileUploadControl.FileName, stream),
+                        PublicId = Guid.NewGuid().ToString(), // Уникальное имя
+                        Overwrite = true
+                    };
+
+                    var uploadResult = _cloudinary.Upload(uploadParams);
+                    string imageUrl = uploadResult.SecureUrl.AbsoluteUri;
+
+                    // Определяем, какую ссылку сделать видимой
+                    HyperLink[] links = { PhotoLink1, PhotoLink2, PhotoLink3, PhotoLink4 };
+                    links[photoIndex].NavigateUrl = imageUrl;
+                    links[photoIndex].Visible = true;
+                    links[photoIndex].Text = "Фото " + (photoIndex + 1);
+
+                    // Увеличиваем индекс
+                    PhotoIndex.Value = (photoIndex + 1).ToString();
+
+                    StatusLabel.Text = "Изображение загружено!";
+                    StatusLabel.ForeColor = System.Drawing.Color.Green;
+                }
+            }
+            catch (Exception ex)
+            {
+                StatusLabel.Text = "Ошибка: " + ex.Message;
+            }
+        }
+
+
+
     }
 }

@@ -162,6 +162,30 @@
                               ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
                               ErrorMessage="Электрондық поштаңызды дұрыс енгізіңіз" CssClass="text-danger small"></asp:RegularExpressionValidator>
                       </div>
+
+                      <div class="mb-4">
+                            <!-- Поле для загрузки -->
+                            <asp:FileUpload ID="FileUploadControl" runat="server" />
+                            <asp:Button ID="UploadButton" runat="server" Text="Загрузить" OnClick="UploadButton_Click" />
+                            <br /><br />
+
+                            <!-- Сообщение о статусе -->
+                            <asp:Label ID="StatusLabel" runat="server" ForeColor="Red" />
+                            <br /><br />
+
+                            <!-- Скрытые ссылки, которые становятся видимыми -->
+                            <asp:HyperLink ID="PhotoLink1" runat="server" Visible="false" Target="_blank">Фото 1</asp:HyperLink>
+                            <br />
+                            <asp:HyperLink ID="PhotoLink2" runat="server" Visible="false" Target="_blank">Фото 2</asp:HyperLink>
+                            <br />
+                            <asp:HyperLink ID="PhotoLink3" runat="server" Visible="false" Target="_blank">Фото 3</asp:HyperLink>
+                            <br />
+                            <asp:HyperLink ID="PhotoLink4" runat="server" Visible="false" Target="_blank">Фото 4</asp:HyperLink>
+
+                            <!-- Поле для хранения текущего индекса -->
+                            <asp:HiddenField ID="PhotoIndex" runat="server" Value="0" />
+
+                      </div>
                   </div>
 
 

@@ -55,7 +55,7 @@
             </p>
         </div>
 
-        <asp:Button ID="btnRedirect" runat="server" CssClass="btn btn-secondary btn-lg w-50" Text="Қайту" PostBackUrl="~/RegisterBusiness.aspx" />
+        <asp:Button ID="btnRedirect" runat="server" CssClass="btn btn-secondary btn-lg w-50" Text="Қайту" PostBackUrl="~/RegisterBusiness.aspx" style="margin-bottom:50px;"/>
 
     </div>
 </asp:Content>

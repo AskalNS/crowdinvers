@@ -1,9 +1,8 @@
-﻿<%@ Page Title="Байланыс" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ContactForBusiness.aspx.cs" Inherits="WebApplication6.ContactForBusiness" %>
+﻿<%@ Page Title="Байланыс" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ContactForBusiness.aspx.cs" Inherits="WebApplication6.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <!-- Навигация -->
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark" style="margin-top: -20px;">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark"  style="margin-top: -20px;">
         <div class="container">
             <a class="navbar-brand" runat="server" href="~/BusinessDefault.aspx">Басты бет</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
@@ -21,13 +20,14 @@
         </div>
     </nav>
 
+
+
     <!-- Основной контент -->
     <div class="container" style="margin-top: 40px;">
         <main aria-labelledby="title">
             <h2 id="title"><%: Title %></h2>
-            <h3>Біздің қолдау қызметіне хабарласыңыз</h3>
             <p>
-                Сіздің бизнесіңізге қатысты кез-келген сұрақтарға жауап беруге немесе көмек көрсетуге дайынбыз. Төмендегі байланыс ақпараты арқылы бізге хабарласыңыз немесе тікелей хабарласу формасын толтырыңыз.
+                Сіздің сұрақтарыңызға жауап беруге және көмек көрсетуге дайынбыз. Төмендегі байланыс ақпараты арқылы бізге хабарласыңыз немесе тікелей хабарласу формасын толтырыңыз.
             </p>
 
             <!-- Контактная информация -->
@@ -42,7 +42,7 @@
                                 <strong>Телефон:</strong><br />
                                 +7 (7172) 123-456<br />
                                 <strong>Электрондық пошта:</strong><br />
-                                <a href="mailto:support@businessplatform.kz">support@businessplatform.kz</a>
+                                <a href="mailto:info@businessplatform.kz">info@businessplatform.kz</a>
                             </address>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="phone" class="form-label">Телефон нөмірі</label>
-                                    <input type="tel" class="form-control" id="phone" placeholder="Телефон нөміріңізді енгізіңіз" required>
+                                    <input type="tel" class="form-control" id="phone" placeholder="Телефон нөміріңізді енгізіңіз">
                                 </div>
                                 <div class="mb-3">
                                     <label for="message" class="form-label">Хабарлама</label>
@@ -86,6 +86,28 @@
                                 </div>
                                 <button type="submit" class="btn btn-primary">Жіберу</button>
                             </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Дополнительная информация для новых пользователей -->
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title">Платформаны пайдалану туралы</h4>
+                            <p>
+                                Егер сіз біздің платформаны пайдаланбаған болсаңыз, біз сізге оны қалай бастау керектігін түсіндіреміз. Платформа арқылы сіз:
+                            </p>
+                            <ul>
+                                <li>Инвестицияларды табысты басқаруға болады.</li>
+                                <li>Жобаларды қаржыландыруға қатысуға болады.</li>
+                                <li>Бизнесіңізді дамыту үшін жаңа мүмкіндіктерге қол жеткізе аласыз.</li>
+                            </ul>
+                            <p>
+                                Кез-келген сұрақтар болса, бізге хабарласыңыз!
+                            </p>
                         </div>
                     </div>
                 </div>

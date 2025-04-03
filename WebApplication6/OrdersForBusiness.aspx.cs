@@ -32,7 +32,7 @@ namespace WebApplication6
             {
                 // Перенаправляем на страницу деталей заказа
                 int orderId = Convert.ToInt32(e.CommandArgument);
-                Response.Redirect($"OrderDetails.aspx?id={orderId}");
+                Response.Redirect($"OrderDetailsForBusiness.aspx?id={orderId}");
             }
         }
         public string GetProgressPercentage(int currentAmount, int targetAmount)

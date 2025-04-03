@@ -240,3 +240,5 @@ C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebAppli.2F5BDC2E.
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
 C:\Users\Pc\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Migrations.InitialCreate14.resources
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\CloudinaryDotNet.dll
+C:\Users\Pc\Desktop\WebApplication6\WebApplication6\bin\CloudinaryDotNet.xml

@@ -11,7 +11,7 @@ namespace WebApplication6
 {
 
 
-    public partial class ContactForBusiness
+    public partial class Contact
     {
     }
 }
