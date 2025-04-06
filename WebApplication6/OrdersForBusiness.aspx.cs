@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Web.UI;
 using WebApplication6.Models;
 
@@ -18,13 +19,51 @@ namespace WebApplication6
 
         private void LoadOrders()
         {
+            List<Order> orders = new List<Order>();
+            List<OrderView> orderViews = new List<OrderView>();
             using (var db = new ApplicationDbContext())
             {
-                var orders = db.Orders.ToList(); 
-                rptOrders.DataSource = orders;
-                rptOrders.DataBind();
+                orders = db.Orders.ToList(); 
             }
-        }
+            foreach(var i  in orders)
+            {
+                List<OrdersImg> ordersImg = new List<OrdersImg>();
+                using (var db = new ApplicationDbContext())
+                {
+                    ordersImg = db.OrdersImg.Where(x => x.OrderId == i.Id).ToList();
+                }
+                if(ordersImg.Count >= 1)
+                {
+                    orderViews.Add(new OrderView()
+                    {
+                        Id = i.Id,
+                        Target = i.Target,
+                        Description = i.Description,
+                        CurrentAmount = i.CurrentAmount,
+                        TargetAmount = i.TargetAmount,
+                        DueDate = i.DueDate,
+                        Url1 = ordersImg[1].Url
+                    });
+                }
+                else
+                {
+                    orderViews.Add(new OrderView()
+                    {
+                        Id = i.Id,
+                        Target = i.Target,
+                        Description = i.Description,
+                        CurrentAmount = i.CurrentAmount,
+                        TargetAmount = i.TargetAmount,
+                        DueDate = i.DueDate,
+                    });
+                }
+                
+            }
+
+
+            rptOrders.DataSource = orderViews;
+            rptOrders.DataBind();
+        }   
 
         protected void rptOrders_ItemCommand(object source, System.Web.UI.WebControls.RepeaterCommandEventArgs e)
         {
@@ -41,5 +80,6 @@ namespace WebApplication6
             double percentage = (double)currentAmount / targetAmount * 100;
             return percentage.ToString("0");
         }
+        
     }
 }

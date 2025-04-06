@@ -1,25 +1,18 @@
 ﻿<%@ Page Title="Тапсырыс сипаттамасы" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="OrderDetailsForInvestor.aspx.cs" Inherits="WebApplication6.OrderDetailsForInvestor" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-            <!-- Навигация -->
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark" style="margin-top: -20px;">
-        <div class="container">
-            <a class="navbar-brand" runat="server" href="~/InvestorDefault.aspx">Басты бет</a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/OrdersForInvestor.aspx">Инвестициялық жобалар</a></li>
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/MyInvestments.aspx">Менің инвестицияларым</a></li>
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/ProfileInvestor.aspx">Профиль</a></li>
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/ContactForInvestor.aspx">Байланыс</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+   
 
+            <!-- Навигация -->
+        <nav class="business-nav">
+            <a runat="server" href="~/InvestorDefault.aspx" class="nav-brand">Басты бет</a>
+            <div class="nav-links">
+                <a runat="server" href="~/OrdersForInvestor.aspx" class="nav-link active">Инвестициялық жобалар</a>
+                <a runat="server" href="~/MyInvestments.aspx" class="nav-link">Менің инвестицияларым</a>
+                <a runat="server" href="~/ProfileInvestor.aspx" class="nav-link">Профиль</a>
+                <a runat="server" href="~/ContactForInvestor.aspx" class="nav-link">Байланыс</a>
+            </div>
+        </nav>
 
 
     <div class="container mt-5">
@@ -121,6 +114,41 @@
             </div>
         </div>
     </div>
+
+    <style>
+          /* Навигация */
+  .business-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .nav-brand {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: var(--primary);
+      text-decoration: none;
+  }
+  
+  .nav-links {
+      display: flex;
+      gap: 2rem;
+  }
+  
+  .nav-link {
+      color: var(--light-text);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+      color: var(--primary);
+  }
+    </style>
 
     <!-- Скрипты -->
     <script>

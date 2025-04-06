@@ -21,6 +21,8 @@ namespace WebApplication6
 
         private void LoadOrders()
         {
+
+
             string login = "";
             if (Request.Cookies[FormsAuthentication.FormsCookieName] != null)
             {
@@ -65,12 +67,49 @@ namespace WebApplication6
                         orders.Add(order);
                     }
                 }
-
-
-
-                rptOrders.DataSource = orders;
-                rptOrders.DataBind();
             }
+
+
+
+            List<OrderView> orderViews = new List<OrderView>();
+            foreach (var i in orders)
+            {
+                List<OrdersImg> ordersImg = new List<OrdersImg>();
+                using (var db = new ApplicationDbContext())
+                {
+                    ordersImg = db.OrdersImg.Where(x => x.OrderId == i.Id).ToList();
+                }
+                if (ordersImg.Count >= 1)
+                {
+                    orderViews.Add(new OrderView()
+                    {
+                        Id = i.Id,
+                        Target = i.Target,
+                        Description = i.Description,
+                        CurrentAmount = i.CurrentAmount,
+                        TargetAmount = i.TargetAmount,
+                        DueDate = i.DueDate,
+                        Url1 = ordersImg[1].Url
+                    });
+                }
+                else
+                {
+                    orderViews.Add(new OrderView()
+                    {
+                        Id = i.Id,
+                        Target = i.Target,
+                        Description = i.Description,
+                        CurrentAmount = i.CurrentAmount,
+                        TargetAmount = i.TargetAmount,
+                        DueDate = i.DueDate,
+                    });
+                }
+
+            }
+
+
+            rptOrders.DataSource = orderViews;
+            rptOrders.DataBind();
         }
 
         protected void rptOrders_ItemCommand(object source, System.Web.UI.WebControls.RepeaterCommandEventArgs e)

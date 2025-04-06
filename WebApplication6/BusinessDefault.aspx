@@ -1,282 +1,493 @@
 ﻿<%@ Page Title="Басты бет" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="BusinessDefault.aspx.cs" Inherits="WebApplication6.BusinessDefault" %>
 
-
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark"  style="margin-top: -20px;">
+    <!-- Улучшенная навигация -->
+    <nav class="business-nav navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" runat="server" href="~/BusinessDefault.aspx">Басты бет</a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/CreateOrder.aspx">Тапсырыс құру</a></li>
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/OrdersForBusiness.aspx">Тапсырыстар</a></li>
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/MyOrders.aspx">Менің тапсырыстарым</a></li>
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/ContactForBusiness.aspx">Байланыс</a></li>
-                </ul>
+            <a runat="server" href="~/BusinessDefault.aspx" class="nav-brand">CrowdInvest</a>
+            <div class="nav-links">
+                <a runat="server" href="~/BusinessDefault.aspx" class="nav-link active">Басты бет</a>
+                <a runat="server" href="~/CreateOrder.aspx" class="nav-link">Жоба құру</a>
+                <a runat="server" href="~/OrdersForBusiness.aspx" class="nav-link">Инвестициялар</a>
+                <a runat="server" href="~/MyOrders.aspx" class="nav-link">Менің жобаларым</a>
+                <a runat="server" href="~/ContactForBusiness.aspx" class="nav-link">Қолдау</a>
             </div>
         </div>
     </nav>
 
+    <div class="container">
+        <!-- Герой-секция -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Жобаларыңызды қаржыландырыңыз</h1>
+                <p class="lead">Көпшілік инвестициясы арқылы бизнесіңізді дамытудың жаңа мүмкіндігі</p>
+                <a runat="server" href="~/CreateOrder.aspx" class="btn btn-primary">Жобаны бастау</a>
+            </div>
+            <div class="hero-image">
+                <img src="/images/Logo.jpg" alt="Көпшілік инвестициясы" style="width: 300px; height:auto">
+            </div>
+        </section>
 
-    <div class ="container" style="margin-top: 40px;">
-        
+        <!-- Как это работает -->
+        <section class="how-it-works">
+            <h2>Жобаны қалай қаржыландыруға болады?</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Жобаны жасау</h3>
+                    <p>Жобаңыздың сипаттамасын, мақсатын және қажетті қаржы көлемін көрсетіңіз</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Модерация</h3>
+                    <p>Біздің команда жобаңызды тексеріп, 24 сағат ішінде жариялайды</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Инвестицияларды жинау</h3>
+                    <p>Инвесторлар жобаңызға қаржы сала бастайды</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Қаржыны алу</h3>
+                    <p>Мақсатқа жеткенде, қаржы сіздің шотыңызға аударылады</p>
+                </div>
+            </div>
+        </section>
 
-    
-    <!-- Герой-секция -->
-    <div class="hero-section text-center text-white py-5">
-        <div class="container">
-            <h1 class="display-4">Біздің бизнеске қош келдіңіз!</h1>
-            <p class="lead">Сіздің табысыңыз үшін біз ең жақсы шешімдерді ұсынамыз.</p>
-            <a href="#advantages" class="btn btn-primary btn-lg">Көбірек білу</a>
-        </div>
-    </div>
+        <!-- Преимущества -->
+        <section class="benefits">
+            <h2>Біздің платформаны неге таңдау керек?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="bi bi-coin"></i>
+                    <h3>Төмен комиссия</h3>
+                    <p>Тек 5% жеткізілген қаржыдан - жоба сәтсіз болса, төлемейсіз</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="bi bi-people-fill"></i>
+                    <h3>Кең аудитория</h3>
+                    <p>10,000+ белсенді инвесторлардың қауымдастығы</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="bi bi-shield-check"></i>
+                    <h3>Қауіпсіздік</h3>
+                    <p>Барлық төлемдер қорғалған және сертификатталған</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="bi bi-graph-up"></i>
+                    <h3>Аналитика</h3>
+                    <p>Жобаның барлық статистикасына қол жетімділік</p>
+                </div>
+            </div>
+        </section>
 
-    <!-- Преимущества -->
-    <div id="advantages" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5">Біздің артықшылықтарымыз</h2>
-            <div class="row">
-                <div class="col-md-4 text-center">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <i class="bi bi-speedometer2 display-4 text-primary"></i>
-                            <h3 class="card-title mt-3">Жоғары жылдамдық</h3>
-                            <p class="card-text">Біз жылдам және тиімді жұмыс істейміз, сіз нәтижеге ең қысқа уақытта жетесіз.</p>
+        <!-- Успешные проекты -->
+        <section class="success-projects">
+            <h2>Табысты жобалар</h2>
+            <div class="projects-slider">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('/images/Etno.jpg')"></div>
+                    <div class="project-info">
+                        <h3>Ұлттық киімдер бренді</h3>
+                        <p>95% қаржыландырылды</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 95%"></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <i class="bi bi-shield-check display-4 text-primary"></i>
-                            <h3 class="card-title mt-3">Сенімділік</h3>
-                            <p class="card-text">Біздің шешімдер уақыт сынағынан өткен және мыңдаған риза клиенттерге ие.</p>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('/images/textil.png')"></div>
+                    <div class="project-info">
+                        <h3>Эко-өнімдер дүкені</h3>
+                        <p>90% қаржыландырылды</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 900%"></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <i class="bi bi-people display-4 text-primary"></i>
-                            <h3 class="card-title mt-3">Қолдау</h3>
-                            <p class="card-text">Біздің команда сіздің кез-келген сұрақтарыңызға көмектесуге әрдайым дайын.</p>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('/images/It.png')"></div>
+                    <div class="project-info">
+                        <h3>IT-стартап</h3>
+                        <p>80% қаржыландырылды</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%"></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
 
-    <!-- Условия сотрудничества -->
-    <div class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Ынтымақтастық шарттары</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title">Икемді тарифтер</h3>
-                            <p class="card-text">Біз әрбір клиентке жеке шарттарды ұсынамыз. Сіз тек өзіңізге қажет нәрсе үшін төлейсіз.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title">Ашықтық</h3>
-                            <p class="card-text">Жұмыстың барлық кезеңдері сізге ашық. Сіз өз жобаңыздың қалай дамып жатқанын әрдайым білесіз.</p>
-                        </div>
-                    </div>
-                </div>
+        <!-- CTA секция -->
+        <section class="cta-section">
+            <h2>Өз жобаңызды қазір бастаңыз</h2>
+            <p>Бірнеше қарапайым қадамдар арқылы инвестицияларды жинауды бастаңыз</p>
+            <div class="cta-buttons">
+                <a runat="server" href="~/CreateOrder.aspx" class="btn btn-primary">Жоба құру</a>
+                <a runat="server" href="~/ContactForBusiness.aspx" class="btn btn-outline">Көмек керек</a>
             </div>
-        </div>
+        </section>
     </div>
-
-    <!-- Отзывы -->
-    <div class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5">Клиенттеріміздің пікірлері</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <p class="card-text">"Керемет қызмет! Барлығы тез және сапалы орындалды. Ұсынамын!"</p>
-                            <footer class="blockquote-footer">Иван Иванов</footer>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <p class="card-text">"Кәсіби тәсіл және әрбір клиентке жеке көңіл бөлу."</p>
-                            <footer class="blockquote-footer">Мария Петрова</footer>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <p class="card-text">"Керемет жұмыс үшін рахмет! Нәтижеге өте қуаныштымыз."</p>
-                            <footer class="blockquote-footer">Алексей Смирнов</footer>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Условия и правила платформы -->
-    <div class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Платформаның шарттары мен ережелері</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title">1. Жалпы ережелер</h3>
-                            <p class="card-text">
-                                Crowdinvesting платформасы арқылы инвестициялау және жобаларды қаржыландыру үшін төмендегі шарттар мен ережелер қолданылады. Платформаны пайдалану арқылы сіз осы шарттармен келісесіз.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title">2. Тіркелу және аккаунт</h3>
-                            <p class="card-text">
-                                Платформаны пайдалану үшін тіркелу қажет. Тіркелу кезінде сіз нақты және дәл ақпаратты көрсетуіңіз керек. Аккаунттың қауіпсіздігін қамтамасыз ету сіздің міндетіңіз.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title">3. Инвестициялау шарттары</h3>
-                            <p class="card-text">
-                                Инвестициялау үшін сізге ережелерге сәйкес қаржылық құралдарды салу қажет. Инвестициялардың тәуекелін толық түсінуіңіз керек. Платформа инвестициялық кеңес бермейді.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title">4. Жобаларды қаржыландыру</h3>
-                            <p class="card-text">
-                                Жоба иелері өз жобаларын платформаға орналастыру үшін белгіленген талаптарға сәйкес келуі керек. Жобаларды тексеру процесі бар, бірақ платформа олардың табыстылығын кепілдемейді.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title">5. Комиссиялар және төлемдер</h3>
-                            <p class="card-text">
-                                Платформа арнайы комиссиялар алады, олар инвестициялау немесе қаржыландыру процесінде қолданылады. Төлемдер туралы толық ақпаратты платформаның төлем бөлімінде таба аласыз.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title">6. Қауіпсіздік және деректерді қорғау</h3>
-                            <p class="card-text">
-                                Платформа сіздің жеке деректеріңізді қорғау үшін барлық қажетті шараларды қолданады. Деректердің бұзылуынан туындаған шығындар үшін платформа жауапкершілік алмайды.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title">7. Жауапкершіліктерді шектеу</h3>
-                            <p class="card-text">
-                                Платформа инвестициялардың нәтижесіне немесе жобалардың табыстылығына жауап бермейді. Барлық шешімдер сіздің тәуекелдік толеранттылығыңызға байланысты.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title">8. Ережелерді өзгерту</h3>
-                            <p class="card-text">
-                                Платформа осы шарттар мен ережелерді кез келген уақытта өзгерту құқығын сақтайды. Өзгерістер туралы хабарламалар платформа арқылы жіберіледі.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title">9. Деректерді пайдалану</h3>
-                            <p class="card-text">
-                                Платформа сіздің деректеріңізді тек қызметтерді жақсарту және заңды талаптарды орындау үшін пайдаланады. Деректерді үшінші тараптармен бөлісу тек сіздің келісіміңізбен жүзеге асырылады.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title">10. Байланыс</h3>
-                            <p class="card-text">
-                                Кез-келген сұрақтар немесе қосымша ақпарат алу үшін біздің қолдау қызметіне хабарласыңыз. Байланыс деректері платформаның "Байланыс" бөлімінде көрсетілген.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    </div>
-
 
     <!-- Стили -->
     <style>
-        .hero-section {
-            background: linear-gradient(45deg, #6a11cb, #2575fc);
-            padding: 100px 0;
+        :root {
+            --primary: #4361ee;
+            --secondary: #3f37c9;
+            --accent: #f72585;
+            --dark: #212529;
+            --light: #f8f9fa;
         }
 
-        .cta-section {
-            background: linear-gradient(45deg, #2575fc, #6a11cb);
-            padding: 100px 0;
+        /* Навигация */
+        .business-nav {
+            background: white;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            padding: 1rem 0;
         }
 
-        .card {
-            border: none;
-            border-radius: 10px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        .business-nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        .card-title {
+        .nav-brand {
+            font-weight: 700;
             font-size: 1.5rem;
-            font-weight: bold;
-            color: #333;
+            color: var(--primary);
+            text-decoration: none;
         }
 
-        .card-text {
-            font-size: 1rem;
-            color: #555;
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            color: var(--dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+            padding: 0.5rem 0;
+            position: relative;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: var(--primary);
+        }
+
+        .nav-link.active:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--primary);
+            border-radius: 3px;
+        }
+
+        /* Герой секция */
+        .hero-section {
+            display: flex;
+            align-items: center;
+            padding: 4rem 0;
+            gap: 3rem;
+        }
+
+        .hero-content {
+            flex: 1;
+        }
+
+        .hero-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero-section .lead {
+            font-size: 1.2rem;
+            color: #6c757d;
+            margin-bottom: 2rem;
+            max-width: 80%;
+        }
+
+        /* Как это работает */
+        .how-it-works {
+            padding: 4rem 0;
+            background: var(--light);
+            border-radius: 16px;
+            margin: 3rem 0;
+        }
+
+        .how-it-works h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2rem;
+            color: var(--dark);
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .step {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .step:hover {
+            transform: translateY(-10px);
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0 auto 1.5rem;
+        }
+
+        .step h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        /* Преимущества */
+        .benefits {
+            padding: 4rem 0;
+        }
+
+        .benefits h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2rem;
+            color: var(--dark);
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .benefit-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .benefit-card i {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .benefit-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        /* Успешные проекты */
+        .success-projects {
+            padding: 4rem 0;
+            background: var(--light);
+            border-radius: 16px;
+            margin: 3rem 0;
+        }
+
+        .success-projects h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2rem;
+            color: var(--dark);
+        }
+
+        .projects-slider {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+        .project-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .project-info {
+            padding: 1.5rem;
+        }
+
+        .project-info h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: var(--dark);
+        }
+
+        .project-info p {
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--primary);
+            border-radius: 4px;
+        }
+
+        /* CTA секция */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 4rem 2rem;
+            border-radius: 16px;
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .cta-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
         }
 
         .btn-primary {
-            background: linear-gradient(45deg, #6a11cb, #2575fc);
-            border: none;
-            transition: background 0.3s ease;
+            background: white;
+            color: var(--primary);
         }
 
         .btn-primary:hover {
-            background: linear-gradient(45deg, #2575fc, #6a11cb);
-        }
-
-        .btn-light {
-            background: white;
-            color: #6a11cb;
-            border: none;
-            transition: background 0.3s ease;
-        }
-
-        .btn-light:hover {
             background: #f8f9fa;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-outline:hover {
+            background: rgba(255,255,255,0.1);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Адаптивность */
+        @media (max-width: 992px) {
+            .hero-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-section .lead {
+                max-width: 100%;
+            }
+
+            .hero-image {
+                margin-top: 2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .business-nav .container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
         }
     </style>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </asp:Content>

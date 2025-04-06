@@ -2,21 +2,15 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-        <!-- Навигация -->
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark" style="margin-top: -20px;">
+               <!-- Навигация -->
+    <nav class="business-nav">
         <div class="container">
-            <a class="navbar-brand" runat="server" href="~/InvestorDefault.aspx">Басты бет</a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/OrdersForInvestor.aspx">Инвестициялық жобалар</a></li>
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/MyInvestments.aspx">Менің инвестицияларым</a></li>
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/ProfileInvestor.aspx">Профиль</a></li>
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/ContactForInvestor.aspx">Байланыс</a></li>
-                </ul>
+            <a runat="server" href="~/InvestorDefault.aspx" class="nav-brand">CrowdInvest</a>
+            <div class="nav-links">
+                <a runat="server" href="~/OrdersForInvestor.aspx" class="nav-link">Инвестициялық жобалар</a>
+                 <a runat="server" href="~/MyInvestments.aspx" class="nav-link">Менің инвестицияларым</a>
+                 <a runat="server" href="~/ProfileInvestor.aspx" class="nav-link active">Профиль</a>
+                 <a runat="server" href="~/ContactForInvestor.aspx" class="nav-link">Байланыс</a>
             </div>
         </div>
     </nav>
@@ -24,7 +18,7 @@
 
     <div class="container mt-4">
         <!-- Заголовок страницы -->
-        <h2 class="text-center mb-4">Мой профиль</h2>
+        <h2 class="text-center mb-4">Менің профилім</h2>
 
         <!-- Основной блок профиля -->
         <div class="card shadow-sm">
@@ -40,13 +34,13 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-4">
-                            <h5><i class="bi bi-card-text me-2"></i>ИИН</h5>
+                            <h5><i class="bi bi-card-text me-2"></i>ЖСН</h5>
                             <p class="text-muted" id="lblIin" runat="server"></p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="mb-4">
-                            <h5><i class="bi bi-telephone me-2"></i>Номер телефона</h5>
+                            <h5><i class="bi bi-telephone me-2"></i>Телефон нөмірі</h5>
                             <p class="text-muted" id="lblPhoneNumber" runat="server"></p>
                         </div>
                     </div>
@@ -55,13 +49,13 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-4">
-                            <h5><i class="bi bi-geo-alt me-2"></i>Адрес</h5>
+                            <h5><i class="bi bi-geo-alt me-2"></i>Мекен-жайы</h5>
                             <p class="text-muted" id="lblAddress" runat="server"></p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="mb-4">
-                            <h5><i class="bi bi-calendar me-2"></i>Дата регистрации</h5>
+                            <h5><i class="bi bi-calendar me-2"></i>Тіркелген күні</h5>
                             <p class="text-muted" id="lblCreatedAt" runat="server"></p>
                         </div>
                     </div>
@@ -83,13 +77,13 @@
 
                 <!-- Форма для заполнения карточных данных (скрыта по умолчанию) -->
                 <div id="investmentForm" class="mt-4" style="display: none;">
-                    <h4>Введите данные карты</h4>
+                    <h4>Карта деректерін енгізіңіз</h4>
                     <div class="mb-3">
-                        <label for="cardNumber" class="form-label">Номер карты</label>
+                        <label for="cardNumber" class="form-label">Карта нөмірі</label>
                         <asp:TextBox ID="cardNumber" runat="server" CssClass="form-control" placeholder="1234 5678 9012 3456" required></asp:TextBox>
                     </div>
                      <div class="mb-3">
-                         <label for="txtAmount" class="form-label">Сумма снятия</label>
+                         <label for="txtAmount" class="form-label">Алу сомасы</label>
                          <asp:TextBox ID="txtAmount" runat="server" CssClass="form-control" placeholder="0" required></asp:TextBox>
                      </div>
                     <asp:Button ID="btnSubmitInvestment" runat="server" Text="Растау" CssClass="btn btn-primary" OnClick="btnSubmitInvestment_Click" />
@@ -126,6 +120,57 @@
         .text-muted {
             color: #6c757d !important;
         }
+           /* Навигация */
+   .business-nav {
+       background: white;
+       box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+       padding: 1rem 0;
+   }
+
+   .business-nav .container {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       max-width: 1200px;
+       margin: 0 auto;
+       padding: 0 2rem;
+   }
+
+   .nav-brand {
+       font-weight: 700;
+       font-size: 1.5rem;
+       color: var(--primary);
+       text-decoration: none;
+   }
+
+   .nav-links {
+       display: flex;
+       gap: 2rem;
+   }
+
+   .nav-link {
+       color: var(--gray);
+       text-decoration: none;
+       font-weight: 500;
+       transition: var(--transition);
+       padding: 0.5rem 0;
+       position: relative;
+   }
+
+   .nav-link:hover, .nav-link.active {
+       color: var(--primary);
+   }
+
+   .nav-link.active:after {
+       content: '';
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       height: 3px;
+       background: var(--primary);
+       border-radius: 3px;
+   }
     </style>
 
      <!-- Скрипты -->
@@ -161,5 +206,7 @@
              investmentForm.style.display = 'none';
          }
      });
+
+
  </script>
 </asp:Content>

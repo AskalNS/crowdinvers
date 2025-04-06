@@ -224,10 +224,14 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="images\BackForDefault2.jpg" />
+    <Content Include="images\Etno.jpg" />
+    <Content Include="images\It.png" />
+    <Content Include="images\Logo.jpg" />
     <Content Include="images\medical.jpg" />
     <Content Include="images\ondiris.png" />
     <Content Include="images\BackForDefault.jpg" />
     <Content Include="images\BackForDefault1.jpg" />
+    <Content Include="images\Sport.jpeg" />
     <Content Include="images\textil.png" />
     <Content Include="InvestorDefault.aspx" />
     <Content Include="Login.aspx" />
@@ -469,6 +473,7 @@
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\OrderDetailsViewModel.cs" />
     <Compile Include="Models\OrdersImg.cs" />
+    <Compile Include="Models\OrderView.cs" />
     <Compile Include="Models\PostgresConfiguration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ProductDatabaseInitializer.cs" />

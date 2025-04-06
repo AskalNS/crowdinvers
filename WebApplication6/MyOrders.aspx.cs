@@ -21,6 +21,8 @@ namespace WebApplication6
 
         private void LoadOrders()
         {
+
+
             string login = "";
             if (Request.Cookies[FormsAuthentication.FormsCookieName] != null)
             {
@@ -33,7 +35,7 @@ namespace WebApplication6
 
 
             Business business = null;
-            using (var db = new ApplicationDbContext()) 
+            using (var db = new ApplicationDbContext())
             {
                 business = db.Businesses.Where(x => x.OwnerMail == login).First();
             }
@@ -46,12 +48,54 @@ namespace WebApplication6
 
 
 
+
+
+
+
+            List<Order> orders = new List<Order>();
+            List<OrderView> orderViews = new List<OrderView>();
             using (var db = new ApplicationDbContext())
             {
-                var orders = db.Orders.Where(x => x.BusinessId == id).ToList();
-                rptOrders.DataSource = orders;
-                rptOrders.DataBind();
+                orders = db.Orders.Where(x => x.BusinessId == id).ToList();
             }
+            foreach (var i in orders)
+            {
+                List<OrdersImg> ordersImg = new List<OrdersImg>();
+                using (var db = new ApplicationDbContext())
+                {
+                    ordersImg = db.OrdersImg.Where(x => x.OrderId == i.Id).ToList();
+                }
+                if (ordersImg.Count >= 1)
+                {
+                    orderViews.Add(new OrderView()
+                    {
+                        Id = i.Id,
+                        Target = i.Target,
+                        Description = i.Description,
+                        CurrentAmount = i.CurrentAmount,
+                        TargetAmount = i.TargetAmount,
+                        DueDate = i.DueDate,
+                        Url1 = ordersImg[1].Url
+                    });
+                }
+                else
+                {
+                    orderViews.Add(new OrderView()
+                    {
+                        Id = i.Id,
+                        Target = i.Target,
+                        Description = i.Description,
+                        CurrentAmount = i.CurrentAmount,
+                        TargetAmount = i.TargetAmount,
+                        DueDate = i.DueDate,
+                    });
+                }
+
+            }
+
+
+            rptOrders.DataSource = orderViews;
+            rptOrders.DataBind();
         }
 
         protected void rptOrders_ItemCommand(object source, System.Web.UI.WebControls.RepeaterCommandEventArgs e)
