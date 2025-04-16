@@ -2,20 +2,15 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark"  style="margin-top: -20px;">
+        <!-- Навигация -->
+    <nav class="business-nav">
         <div class="container">
-            <a class="navbar-brand" runat="server" href="~/BusinessDefault.aspx">Басты бет</a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/CreateOrder.aspx">Тапсырыс құру</a></li>
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/OrdersForBusiness.aspx">Тапсырыстар</a></li>
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/MyOrders.aspx">Менің тапсырыстарым</a></li>
-                    <li class="nav-item"><a class="nav-link" runat="server" href="~/ContactForBusiness.aspx">Байланыс</a></li>
-                </ul>
+            <a runat="server" href="~/BusinessDefault.aspx" class="nav-brand">CrowdInvest</a>
+            <div class="nav-links">
+                <a runat="server" href="~/CreateOrder.aspx" class="nav-link">Жоба құру</a>
+                <a runat="server" href="~/OrdersForBusiness.aspx" class="nav-link active">Инвестициялар</a>
+                <a runat="server" href="~/MyOrders.aspx" class="nav-link">Менің жобаларым</a>
+                <a runat="server" href="~/ContactForBusiness.aspx" class="nav-link">Қолдау</a>
             </div>
         </div>
     </nav>
@@ -49,6 +44,69 @@
         </div>
 
     </div>
+    <style>
+    /* Добавьте эти переменные в начало стилей */
+    :root {
+        --primary: #2A5B7C;
+        --secondary: #4D8BBA;
+        --gray: #777777;
+        --transition: all 0.3s ease;
+    }
+    
+    /* Остальные ваши стили... */
+    
+    /* Навигация */
+    .business-nav {
+        background: white;
+        box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        padding: 1rem 0;
+    }
+
+    .business-nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .nav-brand {
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: var(--primary);
+        text-decoration: none;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .nav-link {
+        color: var(--gray);
+        text-decoration: none;
+        font-weight: 500;
+        transition: var(--transition);
+        padding: 0.5rem 0;
+        position: relative;
+    }
+
+    .nav-link:hover, .nav-link.active {
+        color: var(--primary);
+    }
+
+    .nav-link.active:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: var(--primary);
+        border-radius: 3px;
+    }
+</style>
 
      <script>
 

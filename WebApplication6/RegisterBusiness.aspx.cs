@@ -9,12 +9,15 @@ using WebApplication6.Models;
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
 using System.Web.UI.WebControls;
+using Confluent.Kafka;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace WebApplication6
 {
     public partial class RegisterBusiness : System.Web.UI.Page
     {
-
+        static Dictionary<string, int> map = new Dictionary<string, int>();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -125,7 +128,30 @@ namespace WebApplication6
         }
 
 
+        protected void Get_Code(object sender, EventArgs e)
+        {
+            Random random = new Random();
+            int number = random.Next(100000, 1000000);
 
+            map[txtMail.Text] = number;
+            var register = new RegisterDTO()
+            {
+                mail = txtMail.Text,
+                message = "" + number
+            };
+
+            var config = new ProducerConfig
+            {
+                BootstrapServers = "localhost:9092"
+            };
+
+            using (var producer = new ProducerBuilder<string, string>(config).Build())
+            {
+                string json = JsonConvert.SerializeObject(register);
+                producer.Produce("UserRegister", new Message<string, string> { Key = "1", Value = json });
+                producer.Flush(TimeSpan.FromSeconds(5));
+            }
+        }
 
 
 

@@ -112,6 +112,9 @@
 
     <!-- Стили для улучшения внешнего вида -->
     <style>
+
+
+
         .card {
             border: none;
             border-radius: 10px;
@@ -196,5 +199,67 @@
        background: var(--primary);
        border-radius: 3px;
    }
+
+
+   :root {
+        --primary: #2A5B7C;
+        --secondary: #4D8BBA;
+        --gray: #777777;
+        --transition: all 0.3s ease;
+    }
+    
+    /* Остальные ваши стили... */
+    
+    /* Навигация */
+    .business-nav {
+        background: white;
+        box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        padding: 1rem 0;
+    }
+
+    .business-nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .nav-brand {
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: var(--primary);
+        text-decoration: none;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .nav-link {
+        color: var(--gray);
+        text-decoration: none;
+        font-weight: 500;
+        transition: var(--transition);
+        padding: 0.5rem 0;
+        position: relative;
+    }
+
+    .nav-link:hover, .nav-link.active {
+        color: var(--primary);
+    }
+
+    .nav-link.active:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: var(--primary);
+        border-radius: 3px;
+    }
     </style>
 </asp:Content>

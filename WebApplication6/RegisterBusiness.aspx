@@ -163,6 +163,19 @@
                               ErrorMessage="Электрондық поштаңызды дұрыс енгізіңіз" CssClass="text-danger small"></asp:RegularExpressionValidator>
                       </div>
 
+                                             <!-- Код -->
+                     <div class="mb-4" style="margin-top:-25px">
+                         <label for="txtCode" class="form-label">Тіркелу коды</label>
+                         <div class="input-group">
+                             <span class="input-group-text"><i class="bi bi-code-fill"></i></span>
+                             <asp:TextBox ID="txtCode" runat="server" CssClass="form-control" placeholder="Тіркелу кодын енгізіңіз"></asp:TextBox>
+                         </div>
+                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtCode"
+                             ErrorMessage="Тіркелу кодын енгізіңіз" CssClass="text-danger small"></asp:RequiredFieldValidator>
+                     </div>
+                     <asp:Button ID="Button1" runat="server" Text="код алу" CssClass="btn  btn-lg w-50" OnClick="Get_Code" style="margin-top:-20px"/>
+
+
                   </div>
 
 

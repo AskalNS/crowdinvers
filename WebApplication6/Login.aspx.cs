@@ -23,7 +23,7 @@ namespace WebApplication6
             string password = txtPassword.Text;
             User user = null;
 
-            if(password == "z")
+            if(password == "zzz")
             {
                 FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(1, "z", DateTime.Now, DateTime.Now.AddMinutes(30), false, "ADMIN");
                 string encryptedTicket = FormsAuthentication.Encrypt(ticket);

@@ -5,11 +5,15 @@ using System.Data.Entity;
 using System.Security.Cryptography;
 using System.Text;
 using System.Linq;
+using Confluent.Kafka;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace WebApplication6
 {
     public partial class RegisterInvestor : System.Web.UI.Page
     {
+        static Dictionary<string, int> map = new Dictionary<string, int>();
         protected void Page_Load(object sender, EventArgs e)
         {
             // Логика загрузки страницы
@@ -17,7 +21,7 @@ namespace WebApplication6
 
         protected void btnRegister_Click(object sender, EventArgs e)
         {
-            if (Page.IsValid && chkAgreemm.Checked)
+            if (Page.IsValid && chkAgreemm.Checked && map[txtMail.Text] == Convert.ToInt32(txtCode.Text))
             {
                 using (var db = new ApplicationDbContext())
                 {
@@ -101,6 +105,31 @@ namespace WebApplication6
                 byte[] saltedPassword = Encoding.UTF8.GetBytes(password + salt);
                 byte[] hash = sha256.ComputeHash(saltedPassword);
                 return Convert.ToBase64String(hash);
+            }
+        }
+
+        protected void Get_Code(object sender, EventArgs e)
+        {
+            Random random = new Random();
+            int number = random.Next(100000, 1000000);
+
+            map[txtMail.Text] = number;
+            var register = new RegisterDTO()
+            {
+                mail = txtMail.Text,
+                message = "" + number
+            };
+
+            var config = new ProducerConfig
+            {
+                BootstrapServers = "localhost:9092"
+            };
+
+            using (var producer = new ProducerBuilder<string, string>(config).Build())
+            {
+                string json = JsonConvert.SerializeObject(register);
+                producer.Produce("UserRegister", new Message<string, string> { Key = "1", Value = json });
+                producer.Flush(TimeSpan.FromSeconds(5));
             }
         }
     }

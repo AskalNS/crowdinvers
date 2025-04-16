@@ -134,7 +134,7 @@
     <!-- Стили -->
     <style>
         :root {
-            --primary: #4361ee;
+            --primary: #2A5B7C;
             --secondary: #3f37c9;
             --accent: #f72585;
             --dark: #212529;

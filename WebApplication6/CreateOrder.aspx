@@ -203,7 +203,7 @@
 
     <style>
         :root {
-            --primary: #4361ee;
+            --primary: #2A5B7C;
             --primary-dark: #3a0ca3;
             --accent: #f72585;
             --light: #f8f9fa;
