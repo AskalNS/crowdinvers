@@ -8,14 +8,30 @@ using System.Linq;
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
 using System.Web.UI.WebControls;
+using System.IO; // Файл жолдарымен жұмыс істеу үшін
 
 namespace WebApplication6
 {
     public partial class CreateOrder : System.Web.UI.Page
     {
         private Cloudinary _cloudinary;
+
+        private List<UploadedDocument> _uploadedDocuments = new List<UploadedDocument>();
+
+        public class UploadedDocument
+        {
+            public string FileName { get; set; }
+            public string Url { get; set; }
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
+            var account = new Account(
+                "dug68sc7q",
+                "365952145816191",
+                "pUFV80AoFijHJ_hhQrgrDpStadk"
+            );
+            _cloudinary = new Cloudinary(account);
         }
 
         protected void btnCreateOrder_Click(object sender, EventArgs e)
@@ -119,12 +135,7 @@ namespace WebApplication6
         }
         protected void UploadButton_Click(object sender, EventArgs e)
         {
-            var account = new Account(
-                "dug68sc7q",
-                "365952145816191",
-                "pUFV80AoFijHJ_hhQrgrDpStadk"
-            );
-            _cloudinary = new Cloudinary(account);
+
 
             if (!FileUploadControl.HasFile)
             {
@@ -171,6 +182,69 @@ namespace WebApplication6
             catch (Exception ex)
             {
                 StatusLabel.Text = "Ошибка: " + ex.Message;
+            }
+        }
+
+        protected void btnUploadDocuments_Click(object sender, EventArgs e)
+        {
+            if (!FileUploadDocuments.HasFile)
+            {
+                lblDocumentStatus.Text = "Файл таңдаңыз!";
+                lblDocumentStatus.ForeColor = System.Drawing.Color.Red;
+                return;
+            }
+
+            try
+            {
+                string[] allowedExtensions = { ".pdf", ".docx", ".xlsx", ".doc", ".xls" };
+                int maxFileSize = 5 * 1024 * 1024; // 5MB
+
+                foreach (HttpPostedFile file in FileUploadDocuments.PostedFiles)
+                {
+                    var fileExtension = Path.GetExtension(file.FileName).ToLower();
+
+                    // Файл түрін тексеру
+                    if (!allowedExtensions.Contains(fileExtension))
+                    {
+                        lblDocumentStatus.Text = "Тек PDF, DOCX, XLSX құжаттарын жүктеуге болады!";
+                        continue;
+                    }
+
+                    // Файл өлшемін тексеру
+                    if (file.ContentLength > maxFileSize)
+                    {
+                        lblDocumentStatus.Text = $"{file.FileName} - файлы тым үлкен (максимум 5MB)!";
+                        continue;
+                    }
+
+                    // Cloudinary-ге жүктеу (немесе серверге сақтау)
+                    var uploadParams = new RawUploadParams()
+                    {
+                        File = new FileDescription(file.FileName, file.InputStream),
+                        PublicId = $"documents/{Guid.NewGuid()}_{file.FileName}"
+                    };
+
+                    var uploadResult = _cloudinary.Upload(uploadParams);
+
+                    // Жүктелгендер тізіміне қосу
+                    _uploadedDocuments.Add(new UploadedDocument
+                    {
+                        FileName = file.FileName,
+                        Url = uploadResult.SecureUrl.ToString()
+                    });
+                }
+
+                // Тізімді жаңарту
+                rptDocuments.DataSource = _uploadedDocuments;
+                rptDocuments.DataBind();
+
+                lblDocumentStatus.Text = "Құжаттар сәтті жүктелді!";
+                lblDocumentStatus.ForeColor = System.Drawing.Color.Green;
+            }
+            catch (Exception ex)
+            {
+                lblDocumentStatus.Text = "Қате: " + ex.Message;
+                lblDocumentStatus.ForeColor = System.Drawing.Color.Red;
             }
         }
 

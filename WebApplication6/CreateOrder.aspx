@@ -187,7 +187,38 @@
 
 
 
-
+                <!-- Негізгі формаға қосылатын бөлік -->
+<div class="form-section mt-4">
+    <h2 class="section-title">Қосымша құжаттар</h2>
+    
+    <!-- Файл жүктеу блогы -->
+    <div class="file-upload-container border rounded p-3 mb-3">
+        <label class="form-label">Құжаттарды жүктеу (PDF, DOCX, XLSX - максимум 5MB)</label>
+        <div class="input-group">
+            <asp:FileUpload ID="FileUploadDocuments" runat="server" 
+                CssClass="form-control" 
+                AllowMultiple="true" />
+            <asp:Button ID="btnUploadDocuments" runat="server" 
+                Text="Жүктеу" 
+                CssClass="btn btn-outline-secondary" 
+                OnClick="btnUploadDocuments_Click" 
+                CausesValidation="false" />
+        </div>
+        <asp:Label ID="lblDocumentStatus" runat="server" CssClass="d-block text-center mt-2 small text-muted" />
+        
+        <!-- Жүктелген құжаттар тізімі -->
+        <div class="uploaded-documents mt-3">
+            <asp:Repeater ID="rptDocuments" runat="server">
+                <ItemTemplate>
+                    <div class="document-item">
+                        <i class="bi bi-file-earmark-text"></i>
+                        <a href='<%# Eval("Url") %>' target="_blank"><%# Eval("FileName") %></a>
+                    </div>
+                </ItemTemplate>
+            </asp:Repeater>
+        </div>
+    </div>
+</div>
 
 
 
@@ -518,6 +549,41 @@
             margin-top: 1rem;
             font-size: 1rem;
         }
+
+
+
+
+
+        /* Құжаттар тізімі үшін стильдер */
+.uploaded-documents {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.document-item {
+    padding: 8px;
+    margin-bottom: 5px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.document-item i {
+    margin-right: 10px;
+    color: #2A5B7C;
+}
+
+.document-item a {
+    color: #2A5B7C;
+    text-decoration: none;
+}
+
+.document-item a:hover {
+    text-decoration: underline;
+}
+
+
+
+
 
         /* Адаптивность */
         @media (max-width: 992px) {

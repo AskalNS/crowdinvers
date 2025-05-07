@@ -231,6 +231,42 @@ namespace WebApplication6
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvPlan;
 
         /// <summary>
+        /// FileUploadDocuments control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload FileUploadDocuments;
+
+        /// <summary>
+        /// btnUploadDocuments control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnUploadDocuments;
+
+        /// <summary>
+        /// lblDocumentStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDocumentStatus;
+
+        /// <summary>
+        /// rptDocuments control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptDocuments;
+
+        /// <summary>
         /// btnCreateOrder control.
         /// </summary>
         /// <remarks>
