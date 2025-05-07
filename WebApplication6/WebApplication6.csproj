@@ -464,6 +464,10 @@
     <Compile Include="Migrations\202504030459553_InitialCreate16.Designer.cs">
       <DependentUpon>202504030459553_InitialCreate16.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202505070750580_InitialCreate17.cs" />
+    <Compile Include="Migrations\202505070750580_InitialCreate17.Designer.cs">
+      <DependentUpon>202505070750580_InitialCreate17.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Business.cs" />
@@ -472,6 +476,7 @@
     <Compile Include="Models\Investor.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\OrderDetailsViewModel.cs" />
+    <Compile Include="Models\OrderDocument.cs" />
     <Compile Include="Models\OrdersImg.cs" />
     <Compile Include="Models\OrderView.cs" />
     <Compile Include="Models\PostgresConfiguration.cs" />
@@ -692,6 +697,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202504030459553_InitialCreate16.resx">
       <DependentUpon>202504030459553_InitialCreate16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202505070750580_InitialCreate17.resx">
+      <DependentUpon>202505070750580_InitialCreate17.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

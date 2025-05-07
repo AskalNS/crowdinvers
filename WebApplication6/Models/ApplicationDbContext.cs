@@ -8,6 +8,7 @@ namespace WebApplication6.Models
         {
         }
         public DbSet<Investor> Investors { get; set; }
+        public DbSet<OrderDocument> OrderDocument { get; set; }
         public DbSet<Business> Businesses { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<User> User { get; set; }
