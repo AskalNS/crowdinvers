@@ -94,7 +94,7 @@ namespace WebApplication6
                 var shedule = new RepaymentSchedule()
                 {
                     BusinessId = business.Id,
-                    Content = txtContent.Text,
+                    Content = txtContent.Text.Replace("\n", "<br/>"),
                     OrderId = orderID
                 };
 

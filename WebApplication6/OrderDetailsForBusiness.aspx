@@ -10,6 +10,7 @@
                 <a runat="server" href="~/CreateOrder.aspx" class="nav-link">Жоба құру</a>
                 <a runat="server" href="~/OrdersForBusiness.aspx" class="nav-link active">Инвестициялар</a>
                 <a runat="server" href="~/MyOrders.aspx" class="nav-link">Менің жобаларым</a>
+                <a runat="server" href="~/ProfileBusiness.aspx" class="nav-link">Профиль</a>
                 <a runat="server" href="~/ContactForBusiness.aspx" class="nav-link">Қолдау</a>
             </div>
         </div>
@@ -33,6 +34,36 @@
                 </asp:FormView>
 
             </div>
+
+        <div class="uploaded-documents mt-3">
+            <div class="document-item">
+                <i class="bi bi-file-earmark-text"></i>
+                <a href="/Documents/Бизнес-жоспар.pdf" target="_blank">Бизнес-жоспар.pdf</a>
+            </div>
+        </div>
+
+                    <div class="uploaded-documents mt-3">
+            <div class="document-item">
+                <i class="bi bi-file-earmark-text"></i>
+                <a href="/Documents/Шаблон_к_бизнес-плану_2025.pdf" target="_blank">Бизнес-жоспарға_үлгі_2025.pdf</a>
+            </div>
+        </div>
+
+                    <div class="uploaded-documents mt-3">
+            <div class="document-item">
+                <i class="bi bi-file-earmark-text"></i>
+                <a href="/Documents/Бухгалтерлік баланс.pdf" target="_blank">Бухгалтерлік баланс.pdf</a>
+            </div>
+        </div>
+
+                    <div class="uploaded-documents mt-3">
+            <div class="document-item">
+                <i class="bi bi-file-earmark-text"></i>
+                <a href="/Documents/Қаржылық болжамдар.pdf" target="_blank">Қаржылық болжамдар.pdf</a>
+            </div>
+        </div>
+
+
 
             <div style="margin:30px">
                 <div class="mt-4">
@@ -106,6 +137,38 @@
         background: var(--primary);
         border-radius: 3px;
     }
+
+
+
+    
+
+        /* Құжаттар тізімі үшін стильдер */
+.uploaded-documents {
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+}
+
+.document-item {
+    padding: 8px;
+    margin-bottom: 0px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.document-item i {
+    margin-right: 10px;
+    color: #2A5B7C;
+}
+
+.document-item a {
+    color: #2A5B7C;
+    text-decoration: none;
+}
+
+.document-item a:hover {
+    text-decoration: underline;
+}
+
 </style>
 
      <script>

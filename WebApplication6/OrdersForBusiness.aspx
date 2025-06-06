@@ -11,6 +11,7 @@
                 <a runat="server" href="~/CreateOrder.aspx" class="nav-link">Жоба құру</a>
                 <a runat="server" href="~/OrdersForBusiness.aspx" class="nav-link active">Инвестициялар</a>
                 <a runat="server" href="~/MyOrders.aspx" class="nav-link">Менің жобаларым</a>
+                <a runat="server" href="~/ProfileBusiness.aspx" class="nav-link">Профиль</a>
                 <a runat="server" href="~/ContactForBusiness.aspx" class="nav-link">Қолдау</a>
             </div>
         </div>

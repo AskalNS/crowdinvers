@@ -74,9 +74,9 @@ namespace WebApplication6
                 {
                     TargetAmount = int.Parse(txtTargetAmount.Text),
                     Target = txtTarget.Text,
-                    Description = txtDescription.Text,
+                    Description = txtDescription.Text.Replace("\n", "<br/>"),
                     BusinessId = business.Id,
-                    Plan = txtPlan.Text,
+                    Plan = txtPlan.Text.Replace("\n", "<br/>"),
                     DateOfOrder = DateTimeOffset.Now,
                     DueDate = DateTimeOffset.Parse(txtDueDate.Text),
                     IsActive = 1, // По умолчанию активен

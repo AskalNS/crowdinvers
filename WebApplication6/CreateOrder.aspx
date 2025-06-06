@@ -10,6 +10,7 @@
                 <a runat="server" href="~/CreateOrder.aspx" class="nav-link active">Жоба құру</a>
                 <a runat="server" href="~/OrdersForBusiness.aspx" class="nav-link">Инвестициялар</a>
                 <a runat="server" href="~/MyOrders.aspx" class="nav-link">Менің жобаларым</a>
+                <a runat="server" href="~/ProfileBusiness.aspx" class="nav-link">Профиль</a>
                 <a runat="server" href="~/ContactForBusiness.aspx" class="nav-link">Қолдау</a>
             </div>
         </div>
@@ -154,7 +155,7 @@
                 <div class="form-section">
                     <h2 class="section-title">Жоба сипаттамасы</h2>
                     <div class="form-group">
-                        <label for="txtDescription" class="form-label">Толық сипаттама</label>
+                        <label for="txtDescription" class="form-label">Компания және кәсіп жайлы</label>
                         <div class="input-with-icon">
                             <i class="bi bi-card-text"></i>
                             <asp:TextBox ID="txtDescription" runat="server" CssClass="form-control" 
@@ -170,7 +171,7 @@
                 <div class="form-section">
                     <h2 class="section-title">Жоба жоспары</h2>
                     <div class="form-group">
-                        <label for="txtPlan" class="form-label">Іске асыру жоспары</label>
+                        <label for="txtPlan" class="form-label">Жоспарды қысқаша сипаттап өтіңіз</label>
                         <div class="input-with-icon">
                             <i class="bi bi-file-earmark-text"></i>
                             <asp:TextBox ID="txtPlan" runat="server" CssClass="form-control" 
@@ -193,7 +194,16 @@
     
     <!-- Файл жүктеу блогы -->
     <div class="file-upload-container border rounded p-3 mb-3">
-        <label class="form-label">Құжаттарды жүктеу (PDF, DOCX, XLSX - максимум 5MB)</label>
+        <label class="form-label">Құжаттарды жүктеу (PDF, DOCX, XLSX - максимум 30MB)</label>
+        <label class="form-label">Міндетті түрде:</label>
+
+        <div class="uploaded-documents mt-3">
+            <div class="document-item">
+                <i class="bi bi-file-earmark-text"></i>
+                <a href="/Documents/Шаблон_к_бизнес-плану_2025.pdf" target="_blank">Бизнес-жоспарға_үлгі_2025.pdf</a>
+            </div>
+        </div>
+
         <div class="input-group">
             <asp:FileUpload ID="FileUploadDocuments" runat="server" 
                 CssClass="form-control" 
@@ -219,7 +229,7 @@
         </div>
     </div>
 </div>
-
+                <h2 class="section-title">Жоба жоспары</h2>
 
 
                 <!-- Кнопка отправки -->

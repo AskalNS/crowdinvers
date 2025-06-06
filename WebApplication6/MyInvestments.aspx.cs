@@ -89,7 +89,7 @@ namespace WebApplication6
                         CurrentAmount = i.CurrentAmount,
                         TargetAmount = i.TargetAmount,
                         DueDate = i.DueDate,
-                        Url1 = ordersImg[1].Url
+                        Url1 = ordersImg[0].Url
                     });
                 }
                 else
