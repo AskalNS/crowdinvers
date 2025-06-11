@@ -152,6 +152,7 @@
             border: none;
             border-radius: 10px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding: 100px;
         }
 
         .card:hover {
