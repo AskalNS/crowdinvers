@@ -60,7 +60,7 @@
                             <label for="amount" class="form-label">Инвестиция сомасы</label>
                             <asp:TextBox ID="amount" runat="server" CssClass="form-control" placeholder="Соманы енгізіңіз" required></asp:TextBox>
                         </div>
-                        <asp:Button ID="btnSubmitInvestment" runat="server" Text="Инвестицияны растау" CssClass="btn btn-primary" OnClick="btnSubmitInvestment_Click" />
+                        <asp:Button ID="btnSubmitInvestment" runat="server" Text="Төлемді растау" CssClass="btn btn-primary" OnClick="btnSubmitInvestment_Click" />
    
                 </div>
 

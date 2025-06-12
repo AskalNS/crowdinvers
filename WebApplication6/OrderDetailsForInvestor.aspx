@@ -39,7 +39,7 @@
                         <div class="uploaded-documents mt-3">
             <div class="document-item">
                 <i class="bi bi-file-earmark-text"></i>
-                <a href="/Documents/Бизнес-жоспар.pdf" target="_blank">Бизнес-жоспар.pdf</a>
+                <a href="/Documents/Шаблон_к_бизнес-плану_2025.pdf" target="_blank">Бизнес-жоспар.pdf</a>
             </div>
         </div>
 
@@ -53,14 +53,14 @@
                     <div class="uploaded-documents mt-3">
             <div class="document-item">
                 <i class="bi bi-file-earmark-text"></i>
-                <a href="/Documents/Бухгалтерлік баланс.pdf" target="_blank">Бухгалтерлік баланс.pdf</a>
+                <a href="/Documents/Шаблон_к_бизнес-плану_2025.pdf" target="_blank">Бухгалтерлік баланс.pdf</a>
             </div>
         </div>
 
                     <div class="uploaded-documents mt-3">
             <div class="document-item">
                 <i class="bi bi-file-earmark-text"></i>
-                <a href="/Documents/Қаржылық болжамдар.pdf" target="_blank">Қаржылық болжамдар.pdf</a>
+                <a href="/Documents/Шаблон_к_бизнес-плану_2025.pdf" target="_blank">Қаржылық болжамдар.pdf</a>
             </div>
         </div>
 

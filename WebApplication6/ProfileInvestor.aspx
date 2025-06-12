@@ -86,7 +86,15 @@
                          <label for="txtAmount" class="form-label">Алу сомасы</label>
                          <asp:TextBox ID="txtAmount" runat="server" CssClass="form-control" placeholder="0" required></asp:TextBox>
                      </div>
-                    <asp:Button ID="btnSubmitInvestment" runat="server" Text="Растау" CssClass="btn btn-primary" OnClick="btnSubmitInvestment_Click" />
+                     <div class="mb-3">
+                         <label for="txtCode" class="form-label">Код</label>
+                         <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="Растау коды" ></asp:TextBox>
+                     </div>
+                    <div>
+                         <asp:Button ID="Button1" runat="server" Text="Код алу" CssClass="btn btn-primary" />
+                         <asp:Button ID="btnSubmitInvestment" runat="server" Text="Растау" CssClass="btn btn-primary" OnClick="btnSubmitInvestment_Click" />
+                    </div>
+                   
      
                 </div>
                
